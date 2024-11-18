@@ -1,0 +1,3 @@
+[submodule "qlora"]
+	path = qlora
+	url = https://github.com/artidoro/qlora
