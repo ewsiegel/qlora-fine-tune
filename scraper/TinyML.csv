@@ -1,0 +1,1093 @@
+Created Date,Folders,ID,Subject,Question,Instructor Answers,Student Answers
+2024-11-26T20:29:39Z,"project, logistics",185,Poster Presentation Schedule &amp; Rubrics,"<md>Dear 6.9540 EfficientML Course Students,
+
+We are excited to announce that the poster presentation dates have been scheduled! You can find your assigned presentation date on the following Google Sheet:  
+[Google Sheet Link](https://docs.google.com/spreadsheets/d/1eeXoxVxtHcEjw8BqiVRpaFAMeQFTnpBT3rKv2LbJQ6w/edit?usp=sharing).
+
+### Grading Rubric for Final Projects
+
+Your final project will be evaluated based on the following criteria, each contributing 10 points to your overall grade (70 points in total):
+
+*   **Motivation**: 10 pts
+*   **Technical Soundness**: 10 pts
+*   **Novelty**: 10 pts
+*   **Evaluation**: 10 pts
+*   **Poster**: 10 pts
+*   **Written Report**: 10 pts
+*   **Open Source / Demo**: 10 pts
+
+Each project will be independently scored by **three TAs**, and your final grade will be the average of these scores.
+
+### Poster Presentation Guidelines
+
+To ensure a smooth and successful presentation, please follow these guidelines:
+
+1.  Prepare a **printed version of your poster**, with dimensions no larger than **36x48 inches**. Posters printed across multiple **letter/A4-sized pages** are acceptable, though be prepared for extra taping.
+2.  Every team member is required to **attend the poster presentation**. However, when presenting to the TAs, it is acceptable for only one member to present on behalf of the team.
+3.  Your **presentation and poster must clearly indicate each team member's contribution** to the project.
+
+We will provide poster boards and easels for the event, but you are responsible for printing your poster.
+
+Thank you for your cooperation, and we look forward to seeing your incredible projects! If you have any questions, please don’t hesitate to contact us.</md>",No instructor answer,No student answer
+2024-10-29T23:40:32Z,other,109,WorldModelBench Annotation Competition: Sharpen AI&#39;s Understanding of the Physical World!,"<md>Dear Students,
+
+We’re excited to announce an engaging opportunity for you to directly contribute to cutting-edge AI research in our course. As you know, high-quality human judgment is invaluable in developing robust AI models, and **WorldModelBench**—a novel benchmark for evaluating video generation models—needs your insights!
+
+### **About WorldModelBench**
+
+WorldModelBench is designed to test whether today’s leading video generation models can truly simulate realistic environments. Although promising, these models frequently fall short, often defying basic physics (think objects levitating or liquids defying gravity) and missing commonsense logic. We’re looking to you to evaluate these generated videos, helping to identify areas for improvement.
+
+### **What You’ll Do**
+
+As annotators, you’ll review video samples and assess them based on:
+
+*   **Instruction Following** (0–3)
+*   **Commonsense Adherence** (0–2)
+*   **Physics Adherence** (0–5)
+
+Each video is accompanied by a textual instruction and, occasionally, a conditional image frame. Your task is to evaluate how well the generated video aligns with the provided guidance and whether it adheres to commonsense and basic physical laws.
+
+**Detailed instructions can be found here:** [Annotation Guide](https://docs.google.com/document/d/1kOirJAAU-g7CwrI7NtfJy6hYsiU0VChGJivr7_-b860/edit?usp=sharing)
+
+### **How to Participate**
+
+1.  **Go to** [worldmodelbench.hanlab.ai](https://worldmodelbench.hanlab.ai).
+2.  **Annotate videos** by scoring each category.
+3.  **Important**: Please log in using your MIT email to track your contributions.
+
+### **Rewards for Top Annotators**
+
+To acknowledge your efforts, we’ll be rewarding top annotators (based on the quantity and quality of annotations):
+
+*   **1st Place**: Jetson Orin Nano
+*   **2nd–3rd Place**: Qualcomm Snapdragon Development Board
+*   **4th–6th Place**: STM32 TinyML Development Board
+
+### **Timeline**
+
+*   **Competition Start**: October 29, 2024, 5 PM ET
+*   **Competition End**: November 4, 2024, 11:59 PM ET
+*   **Awards Announcement**: Tuesday in class
+
+Dive in, and let’s collaboratively elevate the capabilities of AI video generation. Thank you in advance for your enthusiasm and insights!</md>",No instructor answer,No student answer
+2024-09-05T21:39:58Z,logistics,9,Important: Prerequisite Enforcement for Course 6.5940 TinyML and Efficient Deep Learning Computing,"<md>Dear Students,
+
+As we prepare for the new semester, we would like to inform you about the strict enforcement of prerequisites for 6.5940 TinyML and Efficient Deep Learning Computing: 
+
++ **6.191 Computation Structures _and_ 6.390 Intro to Machine Learning**;
++ Students who don't fulfill the prerequisites will be **de-registered in the second week** of class. 
+
+If you believe you have equivalent prior experience (e.g., a computer architecture course taken during your undergraduate studies at another institution), you may petition for consideration. Please submit your [Petition Form](https://docs.google.com/forms/d/1gkESVTUXDmW-skKDJFELq3OTKdHo2Z_AOdPVv0vOwvk) by Sept. 6, 2024, 11:59:59 PM EST.
+
+You can optionally upload related materials, such as transcripts, in the Petition Form. This will increase the chances of our approval of your petition. If you have already submitted the petition form and want to attach new materials, you can submit it again.
+
+Thank you for your attention to this matter.</md>",No instructor answer,No student answer
+2024-11-26T17:43:42Z,project,184,Poster Presentation Clarifications,"What is the expectation for the poster presentation, in terms of the poster itself (actual physical poster?) and length/content of presentation? What should the report look like?/Do you have an example from previous years we can look at?","<md>Hi,
+
+A printed version of the poster is required during the presentation, with dimensions no larger than 36x48 inches. Posters printed across multiple letter/A4-sized pages are acceptable, though be prepared for extra taping.
+
+The written report should use the NeurIPS template which you can download [here](https://neurips.cc/Conferences/2024/CallForPapers).</md>",No student answer
+2024-11-26T17:35:40Z,project,183,Project 4 Expectations?,"We&#39;re a little confused at the technical scope of project 4. Is there an expectation to modify the actual architecture of tinyengine, or if we have enough scope (extending from binary classification, modifying training, etc.) around the existing model, is that sufficient? https://docs.google.com/document/d/1QiCkCUr_1DnLNUCXUM3g0SQRIbVG5XyrQjdfsUPrIeA/edit?tab=t.0","<md>Hi,
+
+It’s completely fine to use TinyEngine as an MCU deployment tool for your on-device training project.It is totally fine to use the tinyengine as a MCU deployment tool for your on-device training project.</md>",No student answer
+2024-11-24T01:54:18Z,project,181,W4A8 Explanation,"<md>Reading through the AWQ and SmoothQuant papers, I understand how W4A16 works and how W8A8 works. However, in Lab 5 and in other readings, I've seen a jump from those two methods to also having W4A8. Reading the QServe paper, they also have a W4A8 implementation. Can someone explain how this works? Do they essentially apply SmoothQuant first to get weights and activations to INT8, and then apply AWQ to get weights to INT4? How does it work in the TinyChatEngine like the one we implemented in Lab 5?</md>",No instructor answer,No student answer
+2024-11-23T04:49:20Z,other,179,Quantization of gradient with residual,"If we keep a residual of the gradient after quantizing it, does this not defeat the purpose of quantization? On slide 57 of lecture of distributed training (II), it seems that keeping the residual will take up as much memory as the actual gradient.",No instructor answer,No student answer
+2024-11-22T22:17:49Z,project,178,Action Required: Team Information &amp; Blackout Date for Poster Presentation,"<md>Dear 6.9540 EfficientML Course Students,
+
+I hope this email finds you well. As part of the preparation for the poster presentation, we kindly ask each team to provide the following information:
+
+- Team Members: List the names of all members in your team.
+- Blackout Date: Indicate the single date your team is unavailable for the poster presentation.
+
+Please note:
+- Only one representative from each team needs to fill out the sheet on behalf of the entire team.
+- Each team is allowed only one blackout date. For any special cases, please email us directly.
+- Ensure the information is accurate and submitted by November 26.
+
+You can access the sheet here: [Google Sheet Link](https://docs.google.com/spreadsheets/d/1T4nQB4gdK-hF6QLKgfmmz\_wnYvVyWVc2L954XUjceD4/edit?usp=sharing).
+
+Thank you for your prompt attention to this matter. If you have any questions, please don’t hesitate to reach out.
+
+Best wishes,
+
+MIT EfficientML Course Staff</md>",No instructor answer,No student answer
+2024-11-22T01:13:08Z,project,177,Final Project Schedule Inquiry,How would we schedule our final project presentation? I see that there are three days allotted for final project presentations,"<md>Hi,
+
+We will assign presentation dates to ensure an even distribution of students across all dates. Please use the provided Google Sheet to indicate which date is unavailable for your team.
+
+Important details:
+- Only one representative per team should complete the sheet on behalf of the entire team.
+- Each team may select only one blackout date.
+- For special cases or exceptions, please contact us directly via email.
+- Make sure the information is accurate and submitted by November 26.
+Access the sheet here: [Google Sheet Link](https://docs.google.com/spreadsheets/d/1T4nQB4gdK-hF6QLKgfmmz_wnYvVyWVc2L954XUjceD4/edit?usp=sharing).
+
+Thank you!</md>",No student answer
+2024-11-20T21:38:38Z,project,175,DuoAttention Sink Tokens,"<p>In the DuoAttention paper, it&#39;s mentioned that &#34;The identification process uses 128 sink tokens and 256 recent tokens.&#34;</p>
+<p></p>
+<p>In other cases, I believe it was mentioned that 4 sink tokens are usually sufficient – I was wondering if there was any particular reason to use 128 sink tokens &#43; 256 recent tokens during the $$\alpha$$-tuning process.</p>
+<p></p>
+<p>Thanks!</p>","<md>The reason for using 128 sink tokens and 256 recent tokens is due to the block sparse implementation of the streaming attention. Each block consists of 128 tokens, so during the process, we allocated one block for the sink tokens and two blocks for the recent tokens. This corresponds to 128 sink tokens and 256 recent tokens.</md>",No student answer
+2024-11-14T20:40:03Z,project,171,Project partners?,"<md>I'm an Meng student looking for project partners! I'm particularly interested in on-device training, but am open to other topics. Reach out to me at birdy@mit.edu if you still need a team!</md>",No instructor answer,No student answer
+2024-11-14T19:47:50Z,project,170,Any Guidelines on Project Proposal?,"<p>^ Title</p>
+<p></p>
+<p>Also, if we select project from ideas list, do we just mention which project we want to do</p>",No instructor answer,No student answer
+2024-11-14T18:01:12Z,project,169,Looking for 1-2 Group Members,"Hi, two MEng students and I are looking for one-two others to join our group! Please let me know if you are interested by emailing sbhuiyan@mit.edu, thanks!",No instructor answer,No student answer
+2024-11-14T14:45:07Z,project,168,Strictness of project page count,"<p>Hello, I just wanted to ask how strictly you&#39;re enforcing the 1-2 page limit on the project proposal. Is that a general guideline or really a requirement? Is it ok to have a proposal approaching 3 pages?</p>
+<p></p>
+<p>Thanks!</p>",We don&#39;t have a hard page limit on the project proposal. 1-2 pages is a general recommendation. Feel free to add more pages if you need.,No student answer
+2024-11-14T02:24:57Z,lab5,167,[pset5] dyld[33401]: Symbol not found,"<md>Having followed @146 and @161, I reinstalled xcode command line tools, deactivated the conda environment, and still get this error. 
+
+```
+% ./evaluate.sh reference
+dyld[33401]: Symbol not found: __ZNSt3__117bad_function_callD1Ev
+  Referenced from: /Users/birdy/Documents/Meng Classes/tinyML/pset5/tinychat-tutorial/transformer/test_linear
+  Expected in: /usr/lib/libc++.1.dylib
+./evaluate.sh: line 34: 33401 Abort trap: 6           ./test_linear
+
+All tests completed!
+```
+
+System info: 
+```
+% clang++ --version
+Apple clang version 13.1.6 (clang-1316.0.21.2.5)
+Target: arm64-apple-darwin21.3.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+
+% uname -m
+arm64
+```
+
+Has anyone else run into this? Any suggestions on how to fix it?</md>","<p>Did you try reinstalling homebrew and llvm (using homebrew)?</p>
+<p></p>
+<p>(also try upgrading mac os system if possible)</p>",<md>any updates on this? I have the same error lol.</md>
+2024-11-13T21:08:59Z,project,166,Project Partner Request,"Hi! We’re Clay Coleman and Kenny Chen, two Harvard grad students with engineering backgrounds in industry in spatial AI and CV. We’re looking for partners to work on project(s) 4: On-device training or 5: MCUNet. Reply here or reach out to us at <a href=""mailto:ccoleman@g.harvard.edu"" target=""_blank"" rel=""noopener noreferrer"">ccoleman@g.harvard.edu</a> and <a href=""mailto:kennethchen@g.harvard.edu"" target=""_blank"" rel=""noopener noreferrer"">kennethchen@g.harvard.edu</a> if you&#39;re interested!",No instructor answer,No student answer
+2024-11-13T19:38:51Z,project,165,Can late days be used on the project proposal?,eom,No instructor answer,No student answer
+2024-11-13T18:54:58Z,lab5,164,Error running ./evaluate - (unknown target CPU &#39;armv8.2-a&#43;dotprod&#39;),"<md>Receiving into this error message whenever I run ./evaluate.sh 
+
+Any guidance on how to solve? I have an M1 Mac and downloaded the QM_ARM model.
+```
+error: unknown target CPU 'armv8.2-a+dotprod'
+note: valid target CPU values are: nocona, core2, penryn, bonnell, atom, silvermont, slm, goldmont, goldmont-plus, tremont, nehalem, corei7, westmere, sandybridge, corei7-avx, ivybridge, core-avx-i, haswell, core-avx2, broadwell, skylake, skylake-avx512, skx, cascadelake, cooperlake, cannonlake, icelake-client, rocketlake, icelake-server, tigerlake, sapphirerapids, alderlake, raptorlake, meteorlake, arrowlake, arrowlake-s, lunarlake, gracemont, pantherlake, sierraforest, grandridge, graniterapids, graniterapids-d, emeraldrapids, clearwaterforest, knl, knm, k8, athlon64, athlon-fx, opteron, k8-sse3, athlon64-sse3, opteron-sse3, amdfam10, barcelona, btver1, btver2, bdver1, bdver2, bdver3, bdver4, znver1, znver2, znver3, znver4, znver5, x86-64, x86-64-v2, x86-64-v3, x86-64-v4
+make: *** [build/transformer/src/ops/BMM_S8T_S8N_F32T.o] Error 1
+make: *** Waiting for unfinished jobs....
+error: unknown target CPU 'armv8.2-a+dotprod'
+note: valid target CPU values are: nocona, core2, penryn, bonnell, atom, silvermont, slm, goldmont, goldmont-plus, tremont, nehalem, corei7, westmere, sandybridge, corei7-avx, ivybridge, core-avx-i, haswell, core-avx2, broadwell, skylake, skylake-avx512, skx, cascadelake, cooperlake, cannonlake, icelake-client, rocketlake, icelake-server, tigerlake, sapphirerapids, alderlake, raptorlake, meteorlake, arrowlake, arrowlake-s, lunarlake, gracemont, pantherlake, sierraforest, grandridge, graniterapids, graniterapids-d, emeraldrapids, clearwaterforest, knl, knm, k8, athlon64, athlon-fx, opteron, k8-sse3, athlon64-sse3, opteron-sse3, amdfam10, barcelona, btver1, btver2, bdver1, bdver2, bdver3, bdver4, znver1, znver2, znver3, znver4, znver5, x86-64, x86-64-v2, x86-64-v3, x86-64-v4
+error: unknown target CPU 'armv8.2-a+dotprod'
+note: valid target CPU values are: nocona, core2, penryn, bonnell, atom, silvermont, slm, goldmont, goldmont-plus, tremont, nehalem, corei7, westmere, sandybridge, corei7-avx, ivybridge, core-avx-i, haswell, core-avx2, broadwell, skylake, skylake-avx512, skx, cascadelake, cooperlake, cannonlake, icelake-client, rocketlake, icelake-server, tigerlake, sapphirerapids, alderlake, raptorlake, meteorlake, arrowlake, arrowlake-s, lunarlake, gracemont, pantherlake, sierraforest, grandridge, graniterapids, graniterapids-d, emeraldrapids, clearwaterforest, knl, knm, k8, athlon64, athlon-fx, opteron, k8-sse3, athlon64-sse3, opteron-sse3, amdfam10, barcelona, btver1, btver2, bdver1, bdver2, bdver3, bdver4, znver1, znver2, znver3, znver4, znver5, x86-64, x86-64-v2, x86-64-v3, x86-64-v4
+make: *** [build/transformer/src/OPTTokenizer.o] Error 1
+make: *** [build/transformer/src/nn_modules/Fp32llamaDecoder.o] Error 1
+error: unknown target CPU 'armv8.2-a+dotprod'
+note: valid target CPU values are: nocona, core2, penryn, bonnell, atom, silvermont, slm, goldmont, goldmont-plus, tremont, nehalem, corei7, westmere, sandybridge, corei7-avx, ivybridge, core-avx-i, haswell, core-avx2, broadwell, skylake, skylake-avx512, skx, cascadelake, cooperlake, cannonlake, icelake-client, rocketlake, icelake-server, tigerlake, sapphirerapids, alderlake, raptorlake, meteorlake, arrowlake, arrowlake-s, lunarlake, gracemont, pantherlake, sierraforest, grandridge, graniterapids, graniterapids-d, emeraldrapids, clearwaterforest, knl, knm, k8, athlon64, athlon-fx, opteron, k8-sse3, athlon64-sse3, opteron-sse3, amdfam10, barcelona, btver1, btver2, bdver1, bdver2, bdver3, bdver4, znver1, znver2, znver3, znver4, znver5, x86-64, x86-64-v2, x86-64-v3, x86-64-v4
+make: *** [build/transformer/src/LLaMAGenerate.o] Error 1
+error: unknown target CPU 'armv8.2-a+dotprod'
+note: valid target CPU values are: nocona, core2, penryn, bonnell, atom, silvermont, slm, goldmont, goldmont-plus, tremont, nehalem, corei7, westmere, sandybridge, corei7-avx, ivybridge, core-avx-i, haswell, core-avx2, broadwell, skylake, skylake-avx512, skx, cascadelake, cooperlake, cannonlake, icelake-client, rocketlake, icelake-server, tigerlake, sapphirerapids, alderlake, raptorlake, meteorlake, arrowlake, arrowlake-s, lunarlake, gracemont, pantherlake, sierraforest, grandridge, graniterapids, graniterapids-d, emeraldrapids, clearwaterforest, knl, knm, k8, athlon64, athlon-fx, opteron, k8-sse3, athlon64-sse3, opteron-sse3, amdfam10, barcelona, btver1, btver2, bdver1, bdver2, bdver3, bdver4, znver1, znver2, znver3, znver4, znver5, x86-64, x86-64-v2, x86-64-v3, x86-64-v4
+make: *** [build/transformer/src/nn_modules/Int4llamaAttention.o] Error 1
+```</md>","<p>Looks like your compiler is targeting x86. Could you check your architecture using</p>
+<pre>
+ uname -m</pre>
+<p>and the target of your compiler using</p>
+<pre>
+clang&#43;&#43; --version</pre>
+<p></p>
+<p>Someone reported they opened their terminal using Rosetta, which basically emulated an x86 environment for you. Please avoid that if possible.</p>",No student answer
+2024-11-13T04:43:57Z,lab5,163,Errror with ./evaluate,"<p>I&#39;m trying to run the first thing to check the dependencies but getting the following error. Homebrew seemed to have installed successfully. I&#39;m running on an M3 Mac. </p>
+<p></p>
+<pre>
+make: /opt/homebrew/opt/llvm/bin/clang&#43;&#43;: No such file or directory
+make: /opt/homebrew/opt/llvm/bin/clang&#43;&#43;: No such file or directory
+make: /opt/homebrew/opt/llvm/bin/clang&#43;&#43;: No such file or directory
+make: /opt/homebrew/opt/llvm/bin/clang&#43;&#43;: No such file or directory
+make: /opt/homebrew/opt/llvm/bin/clang&#43;&#43;: No such file or directory
+make: *** [build/transformer/src/LLaMAGenerate.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [build/transformer/src/OPTGenerate.o] Error 1
+make: *** [build/transformer/src/OPTTokenizer.o] Error 1
+make: *** [build/transformer/src/LLaMATokenizer.o] Error 1
+make: *** [build/transformer/src/Generate.o] Error 1
+make: /opt/homebrew/opt/llvm/bin/clang&#43;&#43;: No such file or directory
+make: /opt/homebrew/opt/llvm/bin/clang&#43;&#43;: No such file or directory
+make: *** [build/transformer/src/utils.o] Error 1
+make: *** [build/transformer/src/nn_modules/Fp32llamaAttention.o] Error 1
+Compilation failed!</pre>",No instructor answer,"<p>Try</p>
+<pre>
+<code>brew update
+brew install llvm</code></pre>
+<p></p>"
+2024-11-13T04:00:34Z,lab5,162,Can&#39;t optimize TinyChatEngine on ARM Mac,"I can&#39;t run TinyChatEngine on my ARM Mac, will the staff provide a way for MacOS users to run TinyChatEngine so that we can do the bonus problem?",See my answer here: https://piazza.com/class/m05fat1q3i87bn/post/147,No student answer
+2024-11-13T03:43:56Z,lab5,161,Lab 5: can&#39;t run ./evaluate.sh reference,"<p>followed @146 &#39;s example and re-installed Xcode command line tools but I am still getting the following error. I have an M3 for context. Has anyone run into this issue?</p>
+<p><img src=""/redirect/s3?bucket=uploads&amp;prefix=paste%2Fk02pxy6ui204ed%2Ff84e97cb4e72ed01a718899c8d67808299f2381ebe3dc46eb708419b8fc52646%2Fimage.png"" alt=""image.pngNaN"" /></p>",No instructor answer,"I also ran on m3 and did not have any issue. Seems to be anaconda and Xcode compatibility issue: <a href=""https://stackoverflow.com/questions/63592445/ld-unsupported-tapi-file-type-tapi-tbd-in-yaml-file"">https://stackoverflow.com/questions/63592445/ld-unsupported-tapi-file-type-tapi-tbd-in-yaml-file</a>"
+2024-11-13T03:14:30Z,lab5,160,How to generate git patch?,"<p>Used git diff &gt; ddd.patch and it generates a 130 thousand line long patch which I assume is incorrect.</p>
+<p></p>
+<p>How can you generate the patch?</p>","The command is correct. If you really cannot generate a patch you could submit a zip file of your folder (you may exclude transformer/INT4, which is the downloaded weight) and make a note of that.","I did a similar command, and it worked for me."
+2024-11-13T02:18:53Z,lab5,159,int8_t has not been declared??,"<p>Hi, trying to test out the basic reference file. Getting the below error:</p>
+<p><img src=""/redirect/s3?bucket=uploads&amp;prefix=paste%2Fktb0nxlly1k4nx%2Fea6d1b2fe47d14e3eb993ee8e51c2376f2ab836bf5c82146017da8e0e464cd02%2Fimage.png"" alt=""image.png"" /></p>
+<p></p>
+<p>Using MSYS2 on Windows with mingw.</p>
+<p><img src=""/redirect/s3?bucket=uploads&amp;prefix=paste%2Fktb0nxlly1k4nx%2Fab2e0a3531d57ffafe7af03e2b75b3e24ee70a711dd98f65c91da328274f070b%2Fimage.png"" alt=""image.png"" /></p>
+<p><img src=""/redirect/s3?bucket=uploads&amp;prefix=paste%2Fktb0nxlly1k4nx%2F4ed60f3c832214dfea2f37dadb95269671c0c6dc9c0d4070093e2902f3bfe4b3%2Fimage.png"" alt=""image.png"" /></p>
+<p><img src=""/redirect/s3?bucket=uploads&amp;prefix=paste%2Fktb0nxlly1k4nx%2F206a97dc4f9ba7fba289a90036791b7efc192a57e89e302303860af363148e20%2Fimage.png"" alt=""image.png"" /></p>
+<p>What could be causing this?</p>",No instructor answer,RESOLVED- other questions were not very specific with title lol.
+2024-11-13T01:03:54Z,lab5,157,simd error for ARM,"./kernels/starter_code/simd_programming.cc:94:28: error: always_inline function &#39;vdotq_s32&#39; requires target feature &#39;dotprod&#39;, but would be inlined into function &#39;mat_mul_simd_programming&#39; that is compiled without support for &#39;dotprod&#39;<br />   94 |                 int_sum0 = vdotq_s32(int_sum0, a0, lower_half);<br />      |                            ^<br /><br /><br />Hello, I got this weird error when trying to run the SIMD optimization. the line of code that it fails on is above, does anyone know what is going on here?",No instructor answer,<md>See @112</md>
+2024-11-13T00:28:06Z,project,156,Where to submit project proposal?,"<p>Where can we submit the final project proposal?</p>
+<p></p>
+<p>Apologies if it&#39;s already posted. I haven&#39;t found any instruction so far.</p>",No instructor answer,"<p>it&#39;s on canvas <a href=""https://canvas.mit.edu/courses/28126/assignments/369095"" target=""_blank"" rel=""noopener noreferrer"">here</a></p>
+<p></p>
+<p>https://canvas.mit.edu/courses/28126/assignments/369095</p>"
+2024-11-12T23:57:01Z,project,155,Two people looking for a team,"<md>Hello!
+
+A classmate and I are looking for a team, if anyone is looking for two people, or possibly looking to join? We're interested in computer vision models (segmentation, etc.) & LLMs!</md>",No instructor answer,No student answer
+2024-11-12T01:38:23Z,logistics,152,Can late days be broken up into multiple assignments?,"<p>Dear instructors,</p>
+<p></p>
+<p>I am wondering if our late days can be divided into multiple assignments or can only be used for one single assignment. I wasn&#39;t sure from reading your logistics section on the course website.</p>
+<p></p>
+<p>Thanks so much!</p>","<md>Hi,
+
+Late days can be used for multiple assignments but we will accumulate the late days. The total allowed late days are 6 days.</md>",No student answer
+2024-11-11T20:23:12Z,lab5,151,Is LLaMA_7B_2_chat used anywhere?,I feel like the `LLaMA_7B_2_chat` model was downloaded but never used. Am I missing anything? Just want to make sure. ,The weights in the downloaded model will be used to test your code. See test_linear.cc line 23.,No student answer
+2024-11-11T17:03:27Z,project,150,Project proposal,"Are there any guidelines for the project proposal due this Thursday? What should it contain, and are there any samples we can refer to? Also, where do we turn in the assignment?",No instructor answer,any update on this?
+2024-11-11T16:01:33Z,project,149,Project Collaboration Request,Is there anyone interested in doing work on the DuoAttention project that is still not grouped in a team? I am a 4th year undergrad with CUDA &#43; general MLeng experience with interest in this and I don&#39;t have a full team yet.,No instructor answer,I&#39;m definitely interested! I&#39;m a first year PhD student with a background in ML. Feel free to reach out to me at azhung@mit.edu
+2024-11-11T06:58:05Z,lab5,148,loop_unrolling performs worse?,"<p>Has anyone seen their loop_unrolling perform slightly worse than the reference?</p>
+<p></p>
+<p>Similarly, multithreading_loop_unrolling seems to do worse than multithreading?</p>
+<p></p>
+<p>My code follows the same structure as the reference, just unrolled, so I&#39;m not sure what&#39;s going on.<br /><br />Maybe the compiler is making some simplifications with the reference version that it isn&#39;t with the loop_unrolling version?<br /><br />I&#39;m on x86 for what it&#39;s worth.<br /><br /><img src=""/redirect/s3?bucket=uploads&amp;prefix=paste%2Fl7tj0zpcf4y4kx%2F11252e99a6e05a433614c70fac553f5ab58b82babd29ccdf17d8baaec61e21c1%2Fimage.png"" alt=""image.png"" /></p>","<p>Indeed, loop unrolling could sometimes lead to a performance drop given the complexity of modern CPUs and compilers.</p>
+<p></p>
+<p>I encourage you to find out why. You could use disassembly tools like <em>objdump</em> to view the compiled code, and use performance analysis tools like <em>perf</em> to profile the code. You could also try different optimization levels in Makefile (line 3 change O0 to O1 or O2. The compiler may do some automatic loop unrolling at O2 or higher, make sure to check the assembly code).</p>
+<p></p>
+<p>You will get full credit as long as your implementation is correct and you share some thoughts in the report.</p>",No student answer
+2024-11-11T02:00:51Z,lab5,147,Reference performance for bonus points,<md>The handout says that we could get bonus points if we can further improve the performance compared to the optimized kernel in [TinyChatEngine](https://github.com/mit-han-lab/TinyChatEngine). How do we check the baseline performance of the optimized kernel?</md>,"<p>You may copy the latest kernel in the TinyChatEngine repo (kernels/avx/matmul_avx_int8_int4.cc or kernels/avx/matmul_neon_int8_int4.cc) to your codebase, and call it in transformer/src/ops/linear.cc:</p>
+<p></p>
+<pre>
+op.mat_mul_accelerator_int8_int4_fast_no_offset(&amp;params);</pre>",No student answer
+2024-11-10T17:34:48Z,lab5,146,Lab 5: M1 can&#39;t run ./evaluate.sh reference,"<p>I installed conda and llvm, started a conda env, and downloaded the model weights for ARM os. I&#39;m unable to run the evaluate bash script. My python version is updated to 3.10 in my conda env. </p>
+<pre>
+(tinyml_retry) ➜  transformer git:(main) uname -m               
+arm64
+(tinyml_retry) ➜  transformer git:(main) clang&#43;&#43; --version      
+Apple clang version 12.0.5 (clang-1205.0.22.11)
+Target: arm64-apple-darwin23.5.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+(tinyml_retry) ➜  transformer git:(main) python --version
+Python 3.10.15</pre>
+<p><br />When I run `./evaluate.sh reference`, I run into an uncountable amount of make errors. This is the end of the error messages:<br /><br /></p>
+<pre>
+  397 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                       ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:397:52: error: use of undeclared identifier &#39;FP_NORMAL&#39;
+  397 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                    ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../iIn file included from src/Generate.cc:1:
+In file included from ./include/Generate.h:1:
+In file included from /opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/algorithm:1837:
+In file included from /opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/__algorithm/find.h:31:
+In file included from /opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/cwchar:113:
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/wchar.h:148:20: error: use of undeclared identifier &#39;wcschr&#39;
+  148 |   return (wchar_t*)wcschr(__s, __c);
+      |                    ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/wchar.h:158:20: error: use of undeclared identifier &#39;wcspbrk&#39;
+  158 |   return (wchar_t*)wcspbrk(__s1, __s2);
+      |                    ^
+lared identifier &#39;FP_SUBNORMAL&#39;
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/wchar.h:169:20: error: use of undeclared identifier &#39;wcsrchr&#39;; did you mean &#39;wcschr&#39;?
+  169 |   return (wchar_t*)wcsrchr(__s, __c);
+      |                    ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/wchar.h:150:72: note: &#39;wcschr&#39; declared here
+  150 | inline _LIBCPP_HIDE_FROM_ABI _LIBCPP_PREFERRED_OVERLOAD const wchar_t* wcschr(const wchar_t* __s, wchar_t __c) {
+      |                                                                        ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/wchar.h:179:20: error: use of undeclared identifier &#39;wcsstr&#39;; did you mean &#39;wcschr&#39;?
+  179 |   return (wchar_t*)wcsstr(__s1, __s2);
+      |                    ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/wchar.h:153:66: note: &#39;wcschr&#39; declared here
+  153 | inline _LIBCPP_HIDE_FROM_ABI _LIBCPP_PREFERRED_OVERLOAD wchar_t* wcschr(wchar_t* __s, wchar_t __c) {
+      |                                                                  ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/wchar.h:179:20: error: no matching function for call to &#39;wcschr&#39;
+  153 |   return (wchar_t*)wcsstr(__s1, __s2);
+      |                    ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/wchar.h:153:66: note: candidate disabled: &lt;no message provided&gt;
+  153 | inline _LIBCPP_HIDE_FROM_ABI _LIBCPP_PREFERRED_OVERLOAD wchar_t* wcschr(wchar_t* __s, wchar_t __c) {
+      |                              ~~~~~~~~~~~~~~~~~~~~~~~~~~          ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/wchar.h:179:27: error: cannot initialize a parameter of type &#39;wchar_t *&#39; with an lvalue of type &#39;const wchar_t *&#39;
+  179 |   return (wchar_t*)wcsstr(__s1, __s2);
+nclude/c&#43;&#43;/v1/math.h      | :397                          ^~~~:
+63: error: MIn file included from AL, FP_SUBN                             ^O
+RMAL, FP_ZERO, __x);
+      |                               ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:397:39: error: use of undeclared identifier &#39;FP_INFINITE&#39;
+  397 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE,/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/wchar.h:153:82: note: passing argument to parameter &#39;__s&#39; here
+  153 | inline _LIBCPP_HIDE_FROM_ABI _LIBCPP_PREFERRED_OVERLOAD wchar_t* wcschr(wchar_t* __s, wchar_t __c) {
+      |                                                                                  ^
+ FP_NORMAL, FP_SUBNORMAL,In file included from use of undeclared identifier &#39;FP_SUBNORMAL&#39;
+src/ops/LlamaRMSNorm.cc:1:
+In file included from /opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/cmath:328:
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:392:31: error: use of undeclared identifier &#39;FP_NAN&#39;
+  392 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                               ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:392:39: error: use of undeclared identifier &#39;FP_INFINITE&#39;
+  392 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                       ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:392:52: error: use of undeclared identifier &#39;FP_NORMAL&#39;
+  392 |   return __builtin_f/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/wchar.h:190:20: error: use of undeclared identifier &#39;wmemchr&#39;
+  190 |   return (wchar_t*)wmemchr(__s, __c, __n);
+      |                    ^
+  392 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_N  397 |   return __builtin_fpclassify(FP_NAN, FP FP_ZERO, __x);
+      |                                       ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:397:52: error: use of undeclared identifier &#39;FP_NORMAL&#39;
+  397 |   return __bupclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FORMAL, FPP_SUBNORMAL, FP_ZERO, __xiltin_fpclassify(FP_NAN, FP_INFINITE, FP_N_INFINITE, FP_NORMAL, src/nn_modules/Int8OPTAttention.cc:1:
+In file included from ./include/nn_modules/Int8OPTAttention.h:1:
+In file included from /opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/utility:284:
+In file included from /opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/compare:174:
+In file included from /opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/cmath:328:
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:392:31: error: use of undeclared identifier &#39;FP_NAN&#39;
+  392 |   retu_SUBNORMAL, FP_ZERO, __x);
+      |                                                               ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:392:77: error: use of undeclared identifier &#39;FP_ZERO&#39;
+  392 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                                             ^
+rn __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                               ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:392:39: error: use of undeclared identifier &#39;FP_INFINITE&#39;
+  392 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                       ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:392:52: error: use of undeclared identifier &#39;FP_NORMAL&#39;
+  392 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                    ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:392:63: error: use of undeclared identifier &#39;FP_SUBNORMAL&#39;
+  392 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                               ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:392:77: error: use of undeclared identifier &#39;FP_ZERO&#39;
+  392 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                                             ^
+FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                               ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:397:77: error: use of undeclared identifier &#39;FP_ZERO&#39;
+  397 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                                             ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:397:31: error: use of undeclared identifier &#39;FP_NAN&#39;
+  397 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                               ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:397:39: error: use of undeclared identifier &#39;FP_INFINITE&#39;
+  397 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                       ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:397:52: error: use of undeclared identifier &#39;FP_NORMAL&#39;
+  397 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                    ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:397:63: error: use of undeclared identifier &#39;FP_SUBNORMAL&#39;
+  397 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORO);
+      |                                                    ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:392:63: error: use of undeclared identifier &#39;FP_SUBNORMAL&#39;
+MAL, FP_Z  E392RIn file included from src/nn_modules/Int4llamaDecoderLayer.cc:1:
+In file included from ./include/nn_modules/Int4llamaDecoderLayer.h:1:
+In file included from ./include/nn_modules/Int4llamaAttention.h:1:
+In file included from /opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/utility:284:
+In file included from /opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/compare:174:
+In file included from /opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/cmath:328:
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:392:31: error: use of undeclared identifier &#39;FP_NAN&#39;
+  392 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                               ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:392:39: error: use of undeclared identifier &#39;FP_INFINITE&#39;
+  392 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                       ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:392:52: error: use of undeclared identifier &#39;FP_NORMAL&#39;
+  392 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                    ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:392:63: error: use of undeclared identifier &#39;FP_SUBNORMAL&#39;
+  392 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                               ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:392:77: error: use of undeclared identifier &#39;FP_ZERO&#39;
+  392 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                                             ^
+O, __x);
+      |                                                               ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:397:77: error: use of undeclared identifier &#39;FP_ZERO&#39;
+  397 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                                             ^
+RMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                    ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:397:63: error: use of undeclared identifier &#39;FP_SUBNORMAL&#39;
+ |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                               ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:392:77: error: use of undeclared identifier &#39;FP_ZERO&#39;
+  392 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                                             ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:397:31: error: use of undeclared identifier &#39;FP_NAN&#39;
+  397 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                               ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:397:39: error: use of undeclared identifier &#39;FP_INFINITE&#39;
+  397 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                       ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:397:52: error: use of undeclared identifier &#39;FP_NORMAL&#39;
+  397 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                    ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:397:63: error: use of undeclared identifier &#39;FP_SUBNORMAL&#39;
+  397 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                               ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:397:77: error: use of undeclared identifier &#39;FP_ZERO&#39;
+  397 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                                             ^
+  397 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                               ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:397:77: error: use of undeclared identifier &#39;FP_ZERO&#39;
+  397 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                                             ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/stdlib.h:145:93: error: no member named &#39;lldiv&#39; in the global namespace
+In file included from src/ops/W8A8BFP32OFP32Linear.cc:1:
+In file included from /opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/cmath:328:
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:392:31: error: use of undeclared identifier &#39;FP_NAN&#39;
+  392 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                               ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:392:39: error: use of undeclared identifier &#39;FP_INFINITE&#39;
+  392 |   ret/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:402:31: error: use of undeclared identifier &#39;FP_NAN&#39;
+  402 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                               ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:402:39: error: use of undeclared identifier &#39;FP_INFINITE&#39;
+  402 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                       ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:402:52: error: use of undeclared identifier &#39;FP_NORMAL&#39;
+  402 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                    ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:402:63: error: use of undeclared identifier &#39;FP_SUBNORMAL&#39;
+  402 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                               ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:402:77: error: use of undeclared identifier &#39;FP_ZERO&#39;
+  402 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                                             ^
+  145 | inline _LIBCPP_HIDE_FROM_ABI lldiv_t div(long long __x, long long __y) _NOEXCEPT { return ::lldiv(__x, __y); }
+      |                                                                                           ~~^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:397:31: error: use of undeclared identifier &#39;FP_NAN&#39;
+  397 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                               ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:397:39: error: use of undeclared identifier &#39;FP_INFINITE&#39;
+  397 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                       ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:397:52: error: use of undeclared identifier &#39;FP_NORMAL&#39;
+  397 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_Zurn __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                       ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:392:52: error: use of undeclared identifier &#39;FP_NORMAL&#39;
+  392 |   return __builtin_fpclassify(FP_NAN, FP_INFINITEERO, __x);
+      |                                                    ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:397:63: error: use of undeclared identifier &#39;FP_SUBNORMAL&#39;
+  397 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                               ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:397:77: error: use of undeclared identifier &#39;FP_ZERO&#39;
+  397 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                                             ^
+, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                    ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:392:63: error: use of undeclared identifier &#39;FP_SUBNORMAL&#39;
+  392 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                               ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:392:77: error: use of undeclared identifier &#39;FP_ZERO&#39;
+  392 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                                             ^
+In file included from src/nn_modules/Int8OPTDecoderLayer.cc:1:
+In file included from ./include/nn_modules/Int8OPTDecoderLayer.h:1:
+In file included from ./include/nn_modules/Int8OPTAttention.h:1:
+In file included from /opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/utility:284:
+In file included from /opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/compare:174:
+In file included from /opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/cmath:328:
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:392:31: error: use of undeclared identifier &#39;FP_NAN&#39;
+  392 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                               ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:392:39: error: use of undeclared identifier &#39;FP_INFINITE&#39;
+  392 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                       ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:392:52: error: use of undeclared identifier &#39;FP_NORMAL&#39;
+  392 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                    ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:392:63: error: use of undeclared identifier &#39;FP_SUBNORMAL&#39;
+  392 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                               ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:392:77: error: use of undeclared identifier &#39;FP_ZERO&#39;
+  392 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                                             ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:397:31: error: use of undeclared identifier &#39;FP_NAN&#39;
+  397 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                               ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:397:39: error: use of undeclared identifier &#39;FP_INFINITE&#39;
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:402:31: error: use of undeclared identifier &#39;FP_NAN&#39;
+  402 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                               ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:402:39: error: use of undeclared identifier &#39;FP_INFINITE&#39;
+  402 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                       ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:402:52: error: use of undeclared identifier &#39;FP_NORMAL&#39;
+  402 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                    ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:402:63: error: use of undeclared identifier &#39;FP_SUBNORMAL&#39;
+  402 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                               ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:402:77: error: use of undeclared identifier &#39;FP_ZERO&#39;
+  402 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                                             ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:402:31: error: use of undeclared identifier &#39;FP_NAN&#39;
+  402 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                               ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:402:39: error: use of undeclared identifier &#39;FP_INFINITE&#39;
+  402 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                       ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:402:52: error: use of undeclared identifier &#39;FP_NORMAL&#39;
+  402 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:397:31: error: use of undeclared identifier &#39;FP_NAN&#39;
+  397 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                               ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:397:39: error: use of undeclared identifier &#39;FP_INFINITE&#39;
+  397 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                       ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:397:52: error: use of undeclared identifier &#39;FP_NORMAL&#39;
+  397 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                    ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:397:63: error: use of undeclared identifier &#39;FP_SUBNORMAL&#39;
+  397 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                               ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:397:77: error: use of undeclared identifier &#39;FP_ZERO&#39;
+  397 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                                             ^
+
+      |                                                    ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:402:63: error: use of undeclared identifier &#39;FP_SUBNORMAL&#39;
+  402 |   /opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:397:31: error: use of undeclared identifier &#39;FP_NAN&#39;
+  397 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                               ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:397:39: error: use of undeclared identifier &#39;FP_INFINITE&#39;
+  397 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                       ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:397:52: error: use of undeclared identifier &#39;FP_NORMAL&#39;
+  397 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                    ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../i  397 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                       ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:402:31: error: use of undeclared identifier &#39;FP_NAN&#39;
+  402 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __4mx);ret
+      |                               ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:402:39: error: use of undeclared identifier &#39;FP_INFINITE&#39;
+  402 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                       ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:402:52: error: use of undeclared identifier &#39;FP_NORMAL&#39;
+  402 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                    ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:402:63: error: use of undeclared identifier &#39;FP_SUBNORMAL&#39;
+  402 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                               ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:402:77: error: use of undeclared identifier &#39;FP_ZERO&#39;
+  402 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                                             ^
+urn _/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:397:52: error: use of undeclared identifier &#39;FP_NORMAL&#39;
+nclude/c&#43;&#43;/v1/math.h:397:63: error: use of undeclared identifier &#39;FP_SUBNORMAL&#39;
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+  397 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                               ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:397:77: error: use of undeclared identifier &#39;FP_ZERO&#39;
+  397 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                                             ^
+_  b397u | i l treturn __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                    ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:397:63: error: use of undeclared identifier &#39;FP_SUBNORMAL&#39;
+  397 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                               ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:397:77: error: use of undeclared identifier &#39;FP_ZERO&#39;
+  397 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                                             ^
+In file included from src/OPTTokenizer.cc:1:
+In file included from ./include/OPTTokenizer.h:4:
+In file included from /opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/algorithm:1842:
+In file included from /opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/__algorithm/for_each.h:16:
+In file included from /opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/__ranges/movable_box.h:21:
+In file included from /opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/optional:230:
+In file included from /opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/compare:174:
+In file included from /opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/cmath:328:
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:392:31: error: use of undeclared identifier &#39;FP_NAN&#39;
+  392 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                               ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:392:39: error: use of undeclared identifier &#39;FP_INFINITE&#39;
+  392 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                       ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:392:52: error: use of undeclared identifier &#39;FP_NORMAL&#39;
+  392 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                    ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:392:63: error: use of undeclared identifier &#39;FP_SUBNORMAL&#39;
+  392 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                               ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:392:77: error: use of undeclared identifier &#39;FP_ZERO&#39;
+  392 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                                             ^
+in_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                               ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:402:77: error: use of undeclared identifier &#39;FP_ZERO&#39;
+  402 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                                             ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:402:31: error: use of undeclared identifier &#39;FP_NAN&#39;
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:397:31: error: use of undeclared identifier &#39;FP_NAN&#39;
+  397 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                               ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+In file included from src/OPTGenerate.cc:1:
+In file included from ./include/Generate.h:1:
+In file included from /opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/algorithm:1842:
+In file included from /opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/__algorithm/for_each.h:16:
+In file included from /opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/__ranges/movable_box.h:21:
+In file included from /opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/optional:186:
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/__functional/hash.h:35:8: error: reference to unresolved using declaration
+   35 |   std::memcpy(&amp;__r, __p, sizeof(__r));
+      |        ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/cstring:79:1: note: using declaration annotated with &#39;using_if_exists&#39; here
+   79 | using ::memcpy _LIBCPP_USING_IF_EXISTS;
+      | ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:402:31: error: use of undeclared identifier &#39;FP_NAN&#39;
+  402 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                               ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:402:39: error: use of undeclared identifier &#39;FP_INFINITE&#39;
+  402 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                       ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:402:52: error: use of undeclared identifier &#39;FP_NORMAL&#39;
+  402 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                    ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:402:63: /opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:397:31: error: use of undeclared identifier &#39;FP_NAN&#39;
+  397 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                               ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:397:39: error: use of undeclared identifier &#39;FP_INFINITE&#39;
+  397 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                       ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:397:52: error: use of undeclared identifier &#39;FP_NORMAL&#39;
+  397 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                    ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:397:63: error: use of undeclared identifier &#39;FP_SUBNORMAL&#39;
+  397 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_S  402 |   rUBNORMAL, FP_ZERO, __x);
+      |                                                               ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:397:77: error: use of undeclared identifier &#39;FP_ZERO&#39;
+  397 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                                             ^
+error: use of undeclared identifier &#39;FP_SUBNORMAL&#39;
+eturn __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                               ^
+  402 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                               ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:402:77: error: use of undeclared identifier &#39;FP_ZERO&#39;
+  402 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                                             ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:402:31: error: use of undeclared identifier &#39;FP_NAN&#39;
+  402 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                               ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:402:39: error: use of undeclared identifier &#39;FP_INFINITE&#39;
+  402 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                       ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:402:52: error: use of undeclared identifier &#39;FP_NORMAL&#39;
+  402 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                    ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:402:63: error: use of undeclared identifier &#39;FP_SUBNORMAL&#39;
+  402 |   return __builtin_f/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:402:39: error: use of undeclared identifier &#39;FP_INFINITE&#39;
+  402 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                       ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:402:52: In file included from src/Generate.cc:1:
+In file included from ./include/Generate.h:1:
+In file included from /opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/algorithm:1842:
+In file included from /opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/__algorithm/for_each.hpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                               ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:402:77: error: use of undeclared identifier &#39;FP_ZERO&#39;
+  402 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                                             ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+error: use of undeclared identifier &#39;FP_NORMAL&#39;
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:402:31: error: use of undeclared identifier &#39;FP_NAN&#39;
+  402 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, Ffatal error: too many errors emitted, stopping now [-ferror-limit=]
+  402 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                    ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:402:63: error: use of undeclared identifier &#39;FP_SUBNORMAL&#39;
+  402 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                               ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:402:77: error: use of undeclared identifier &#39;FP_ZERO&#39;
+  402 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                                             ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:402:31: error: use of undeclared identifier &#39;FP_NAN&#39;
+  402 |   return __builtin_fpclassify(FP_NAN, FP_IP_SUBNORMAL, FP_ZERO, __x);
+      |                               ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:402:39: error: use of undeclared identifier &#39;FP_INFINITE&#39;
+  402 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                       ^
+:16:
+In file included from /opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/__ranges/movable_box.h:21:
+In file included from /opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/optional:186:
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/__functional/hash.h:35:8: error: reference to unresolved using declaration
+   35 |   std::memcpy(&amp;__r, __p, sizeo/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:402:52: error: use of undeclared identifier &#39;FP_NORMAL&#39;
+  402 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                    ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:402:63: error: use of undeclared identifier &#39;FP_SUBNORMAL&#39;
+  402 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                               ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:402:77: error: use of undeclared identifier &#39;FP_ZERO&#39;
+  402 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                                             ^
+NFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                               ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:402:39: error: use of undeclared identifier &#39;FP_INFINITE&#39;
+  402 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                       ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:402:52: error: use of undeclared identifier &#39;FP_NORMAL&#39;
+  402 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                    ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:402:63: error: use of undeclared identifier &#39;FP_SUBNORMAL&#39;
+  402 |   return __builtin_fpclassify(FfP(__r));
+      |        ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/cstring:79:1: note: using declaration annotated with &#39;using_if_exists&#39; here
+   79 | using ::memcpy _LIBCPP_USING_IF_EXISTS;
+      | ^
+_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                               ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:402:77: error: use of undeclared identifier &#39;FP_ZERO&#39;
+  402 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                                             ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+In file included from src/LLaMAGenerate.cc:2:
+In file included from ./include/Generate.h:1:
+In file included from /opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/algorithm:1842:
+In file included from /opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/__algorithm/for_each.h:16:
+In file included from /opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/__ranges/movable_box.h:21:
+In file included from /opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/optional:230:
+In file included from /opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/compare:174:
+In file included from /opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/cmath:328:
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:392:31: error: use of undeclared identifier &#39;FP_NAN&#39;
+  392 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                               ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:392:39: error: use of undeclared identifier &#39;FP_INFINITE&#39;
+  392 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                       ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:392:52: error: use of undeclared identifier &#39;FP_NORMAL&#39;
+  392 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                    ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:392:63: error: use of undeclared identifier &#39;FP_SUBNORMAL&#39;
+  392 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                               ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:392:77: error: use of undeclared identifier &#39;FP_ZERO&#39;
+  392 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                                             ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:397:31: error: use of undeclared identifier &#39;FP_NAN&#39;
+  397 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                               ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+In file included from src/OPTGenerate.cc:1:
+In file included from ./include/Generate.h:1:
+In file included from /opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/algorithm:1842:
+In file included from /opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/__algorithm/for_each.h:16:
+In file included from /opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/__ranges/movable_box.h:21:
+In file included from /opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/optional:230:
+In file included from /opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/compare:174:
+In file included from /opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/cmath:328:
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:392:31: error: use of undeclared identifier &#39;FP_NAN&#39;
+  392 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                               ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:392:39: error: use of undeclared identifier &#39;FP_INFINITE&#39;
+  392 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                       ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:392:52: error: use of undeclared identifier &#39;FP_NORMAL&#39;
+  392 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                    ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:392:63: error: use of undeclared identifier &#39;FP_SUBNORMAL&#39;
+  392 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                               ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:392:77: error: use of undeclared identifier &#39;FP_ZERO&#39;
+  392 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                                             ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:397:31: error: use of undeclared identifier &#39;FP_NAN&#39;
+  397 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                               ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+In file included from src/Generate.cc:1:
+In file included from ./include/Generate.h:1:
+In file included from /opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/algorithm:1842:
+In file included from /opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/__algorithm/for_each.h:16:
+In file included from /opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/__ranges/movable_box.h:21:
+In file included from /opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/optional:230:
+In file included from /opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/compare:174:
+In file included from /opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/cmath:328:
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:392:31: error: use of undeclared identifier &#39;FP_NAN&#39;
+  392 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                               ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:392:39: error: use of undeclared identifier &#39;FP_INFINITE&#39;
+  392 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                       ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:392:52: error: use of undeclared identifier &#39;FP_NORMAL&#39;
+  392 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                    ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:392:63: error: use of undeclared identifier &#39;FP_SUBNORMAL&#39;
+  392 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                               ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:392:77: error: use of undeclared identifier &#39;FP_ZERO&#39;
+  392 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                                                                             ^
+/opt/homebrew/Cellar/llvm/19.1.3/bin/../include/c&#43;&#43;/v1/math.h:397:31: error: use of undeclared identifier &#39;FP_NAN&#39;
+  397 |   return __builtin_fpclassify(FP_NAN, FP_INFINITE, FP_NORMAL, FP_SUBNORMAL, FP_ZERO, __x);
+      |                               ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+../kernels/neon/matmul_neon_int4.cc:2:10: fatal error: &#39;assert.h&#39; file not found
+    2 | #include &lt;assert.h&gt;
+      |          ^~~~~~~~~~
+../kernels/neon/matmul_neon_int4_offset.cc:2:10: fatal error: &#39;assert.h&#39; file not found
+    2 | #include &lt;assert.h&gt;
+      |          ^~~~~~~~~~
+../kernels/quantizer.cc:6:5: error: use of undeclared identifier &#39;assert&#39;
+    6 |     assert(size % block_size == 0);
+      |     ^
+../kernels/quantizer.cc:7:5: error: use of undeclared identifier &#39;assert&#39;
+    7 |     assert(block_size == 32);
+      |     ^
+2 errors generated.
+make: *** [build/transformer/../kernels/quantizer.o] Error 1
+1 error generated.
+1 error generated.
+make: *** [build/transformer/../kernels/neon/matmul_neon_int4_offset.o] Error 1
+make: *** [build/transformer/../kernels/neon/matmul_neon_int4.o] Error 1
+20 errors generated.
+make: *** [build/transformer/src/nn_modules/Fp32llamaDecoder.o] Error 1
+1 error generated.
+make: *** [build/transformer/../kernels/starter_code/multithreading.o] Error 1
+5 errors generated.
+make: *** [build/transformer/../kernels/matmul_int8.o] Error 1
+5 errors generated.
+1 error generated.
+1 error generated.
+make: *** [build/transformer/../kernels/matmul_int4.o] Error 1
+1 error generated.
+make: *** [build/transformer/../kernels/matmul_imp.o] Error 1
+make: *** [build/transformer/../kernels/starter_code/multithreading_loop_unrolling.o] Error 1
+1 error generated.
+make: *** [build/transformer/../kernels/starter_code/loop_unrolling.o] Error 1
+make: *** [build/transformer/../kernels/starter_code/reference.o] Error 1
+20 errors generated.
+make: *** [build/transformer/src/ops/arg_max.o] Error 1
+1 error generated.
+20 errors generated.
+make: *** [build/transformer/src/LLaMATokenizer.o] Error 1
+make: *** [build/transformer/src/ops/embedding.o] Error 1
+20 errors generated.
+make: *** [build/transformer/src/nn_modules/OPTForCausalLM.o] Error 1
+20 errors generated.
+make: *** [build/transformer/src/ops/BMM_S8T_S8N_S8T.o] Error 1
+20 errors generated.
+make: *** [build/transformer/src/ops/W8A8B8O8Linear.o] Error 1
+20 errors generated.
+20 errors generated.
+20 errors generated.
+20 errors generated.
+make: *** [build/transformer/src/nn_modules/Fp32llamaAttention.o] Error 1
+make: *** [build/transformer/src/nn_modules/Int8OPTDecoder.o] Error 1
+make: *** [build/transformer/src/ops/W8A8BFP32OFP32Linear.o] Error 1
+make: *** [build/transformer/src/ops/BMM_F32T.o] Error 1
+20 errors generated.
+make: *** [build/transformer/src/nn_modules/Int4llamaDecoder.o] Error 1
+20 errors generated.
+make: *** [build/transformer/src/utils.o] Error 1
+20 errors generated.
+20 errors generated.
+20 errors generated.
+make: *** [build/transformer/src/nn_modules/Int4llamaAttention.o] Error 1
+20 errors generated.
+make: *** [build/transformer/src/ops/linear.o] Error 1
+20 errors generated.
+20 errors generated.
+make: *** [build/transformer/src/ops/RotaryPosEmb.o] Error 1
+make: *** [build/transformer/src/nn_modules/Fp32llamaForCausalLM.o] Error 1
+make: *** [build/transformer/src/ops/W8A8B8O8LinearReLU.o] Error 1
+make: *** [build/transformer/src/ops/batch_add.o] Error 1
+20 errors generated.
+20 errors generated.
+make: *** [build/transformer/src/ops/LayerNorm.o] Error 1
+make: *** [build/transformer/src/ops/softmax.o] Error 1
+20 errors generated.
+make: *** [build/transformer/src/ops/BMM_S8T_S8N_F32T.o] Error 1
+20 errors generated.
+20 errors generated.
+20 errors generated.
+make: *** [build/transformer/src/nn_modules/Int8OPTDecoderLayer.o] Error 1
+make: *** [build/transformer/src/ops/LlamaRMSNorm.o] Error 1
+make: *** [build/transformer/src/ops/LayerNormQ.o] Error 1
+20 errors generated.
+20 errors generated.
+make: *** [build/transformer/src/nn_modules/Int8OPTAttention.o] Error 1
+make: *** [build/transformer/src/nn_modules/Int4llamaForCausalLM.o] Error 1
+20 errors generated.
+20 errors generated.
+make: *** [build/transformer/src/nn_modules/Int4llamaDecoderLayer.o] Error 1
+make: *** [build/transformer/src/nn_modules/Fp32llamaDecoderLayer.o] Error 1
+1 error generated.
+make: *** [build/transformer/../kernels/starter_code/all_techniques.o] Error 1
+1 error generated.
+make: *** [build/transformer/../kernels/starter_code/simd_programming.o] Error 1
+20 errors generated.
+20 errors generated.
+make: *** [build/transformer/src/OPTTokenizer.o] Error 1
+make: *** [build/transformer/src/Generate.o] Error 1
+20 errors generated.
+make: *** [build/transformer/src/OPTGenerate.o] Error 1
+20 errors generated.
+make: *** [build/transformer/src/LLaMAGenerate.o] Error 1
+Compilation failed!</pre>",No instructor answer,"<md>This happened to me after getting a new Mac and migrating from an x86 Macbook Pro. I had to reinstall the xcode command line tools:
+
+```
+sudo rm -rf $(xcode-select -print-path)
+xcode-select --install
+```</md>"
+2024-11-09T17:36:15Z,"project, logistics",145,Still looking for project team!,"<md>Hi everyone,
+
+I still have not found a group for the course project and if you are looking for a member let me know. I am a 5th year PhD student. I have great coding and CUDA Kernel programing experience.
+
+Best,
+Amin Heyrani Nobari</md>",No instructor answer,"Hi Amin, we have a spot for one more person in our group, send me an email (gmanso@mit.edu) with your phone number so I can add you to our WhatsApp group."
+2024-11-09T02:37:36Z,lab5,143,Lab5,I just wanted to confirm that we only need to submit the lab report and patch file for Lab5 on Canvas (and that we don&#39;t need to commit/push our code)?,Yes,No student answer
+2024-11-08T23:46:27Z,lab5,142,vdotq_s32 arm documentation ambiguity,"<p>tldr: if everything in your SIMD code is working except for the dot product, this might be helpful.</p>
+<p></p>
+<p>Although <a href=""https://developer.arm.com/architectures/instruction-sets/intrinsics/vdotq_s32"" target=""_blank"" rel=""noopener noreferrer"">the documentation that you&#39;d find from a google search</a> suggests that vdotq_s32 modifies the destination register passed in, it really does not. You need to use the 128 lane value returned by the operator.</p>
+<p></p>
+<p>Upon a quick further look, this seems to be because we are using arm v8 (which uses neon intrinsics).</p>",No instructor answer,No student answer
+2024-11-08T23:17:49Z,lab5,141,Question regarding architecture for M1 chip laptop,I&#39;m running the lab 5 from Macbook air 2020 M1 chip. For some reason loop unrolling passes the tests only if I fill the code under the QM_x86 part of the code. Is this expected behaviour? I was under the assumption that the code under QM_ARM should work for my laptop. Thanks in advance!,"<p>It&#39;s weird. Could you confirm you downloaded the correct version of the models?</p>
+<pre>
+python download_model.py --model LLaMA_7B_2_chat --QM QM_ARM</pre>
+<p>Also check the target of your compiler and the architecture of your system:</p>
+<pre>
+clang&#43;&#43; --version
+uname -m</pre>
+<p></p>",No student answer
+2024-11-07T23:14:41Z,project,139,Project Collaboration Request,"Hi all,<br /><br />I am a second-year in EECS. I know I started reaching out for teammates a bit late, but I am back on track for some exciting work!<br /><br />I have experience in algorithm design, modelling, and software. I have researched on vision-based person-following robots with YOLO and person re-identification to consistently follow the movement of an elder, and a visual knowledge interaction, navigation &amp; manipulation system for dataset embeddings. I also developed several side software projects. I have been essentially deriving joy being a relentless learner and explorer, stemming from my passion.<br /><br />I am also very excited (also slightly ambitious) about potential work for the project, and beyond. Personally, I am resilient with diversity and usually brainstorm extensively with my teammates for project ideas so that we work on something everyone is excited about. That said, I have some preliminary project ideas about long-context LLM, multi-modality, and variable network (with different energy consumption, throughput, etc.) on the task (rather than the hardware architecture). If you are still looking for teammates, I will be eager to chat to see if we can cook something together. Talk with me at <a href=""mailto:jophyyjh@mit.edu"" target=""_blank"" rel=""noopener noreferrer"">jophyyjh@mit.edu</a>~<br /><br />Best regards,<br />Jophy Ye",No instructor answer,No student answer
+2024-11-07T18:15:11Z,project,138,Parallelize two matrix multiplications on Cuda,"<p>Hi,</p>
+<p></p>
+<p>I want to parallelize the forward pass of a custom nn.Module in pytorch to accelerate the inference of my model for the project. The issue is that I have a shared variable, so torch.compile executes this sequentially. In particular, I want to parallelize</p>
+<p><br />def forward(self, x)</p>
+<p>    return F.linear(x, self.W1) &#43; F.linear(x, self.W2)</p>
+<p></p>
+<p>Assume that one cannot merge self.W1 and self.W2 for some reason (e.g. because they have different quantization precisions). </p>
+<p>Is this possible to do or does it have to create a copy of x to be able to parallelize it on gpus?</p>",No instructor answer,No student answer
+2024-11-07T16:29:50Z,lab5,137,Have I installed correctly [Windows]?,"<md>I haven't edited any of the lab code. Wondering if this is the intended output when running evaluate.sh
+
+I've been avoiding WSL, but if this is wrong I'll switch to WSL.
+
+![image.png](/redirect/s3?bucket=uploads&prefix=paste%2Fkekfqxttgoz7bd%2Ff5d29bb2e93d87af3d6287727ab7bad2ace25c0302f57998d84f8388c11aa2a6%2Fimage.png)</md>","<p>No, this is definitely wrong. A correct output should be like this:</p>
+<pre>
+-------- Sanity check of reference implementation: Passed! --------
+Section, Total time(ms), Average time(ms), Count, GOPs
+reference, 1679.977051, 167.996994, 10, 1.560402
+
+-------- Sanity check of loop_unrolling implementation: Passed! --------
+Section, Total time(ms), Average time(ms), Count, GOPs
+loop_unrolling, 1474.411011, 147.440994, 10, 1.777957
+
+-------- Sanity check of multithreading implementation: Passed! --------
+Section, Total time(ms), Average time(ms), Count, GOPs
+multithreading, 460.037994, 46.002998, 10, 5.698312
+
+-------- Sanity check of simd_programming implementation: Passed! --------
+Section, Total time(ms), Average time(ms), Count, GOPs
+simd_programming, 1185.531006, 118.553001, 10, 2.211195
+
+-------- Sanity check of multithreading_loop_unrolling implementation: Passed! --------
+Section, Total time(ms), Average time(ms), Count, GOPs
+multithreading_loop_unrolling, 468.674988, 46.867001, 10, 5.593300
+
+-------- Sanity check of all_techniques implementation: Passed! --------
+Section, Total time(ms), Average time(ms), Count, GOPs
+all_techniques, 104.831001, 10.483000, 10, 25.006344
+
+All tests completed!</pre>",No student answer
+2024-11-07T07:03:34Z,lab5,136,Lab 5 Apple M3 chip?,"<p>Hello,</p>
+<p></p>
+<p>The handout for lab5 specifies that the lab will work for ARM (Apple M1/M2) chips. Do we know that it won&#39;t work for Apple M3 chips, or has it just not been tested yet?</p>
+<p></p>
+<p>Thanks a lot!</p>",We didn&#39;t test it on M3 chip but it should be OK. If you find something interesting on M3 feel free to include it in your report and/or open an issue on our github repo.,No student answer
+2024-11-07T01:10:19Z,lab5,135,Lab 5 GOP Metric,"In lab 5, what does the GOP metric stand for?","<p>GOPs, or giga operations per second, is a metric of the performance of your implementation. Higher GOPs number means better performance.</p>
+<p>It is also known as GFLOPS for floating-point operations.</p>
+<p>For GEMM, the operation can be multiplication or add, so the number of operations is 2*M*N*K, where M is the batch size, K is the number of input channels, and N is the number of output channels.</p>",No student answer
+2024-11-07T00:06:19Z,lab5,134,Lab 5 wont build (Windows),"<md>Hello, I'm having trouble building lab 5. I believe I've installed all the prerequisites.
+
+The main source of error seems to be that windows cant run `.sh` files?
+It's using git bash as a workaround.
+
+![image.png](/redirect/s3?bucket=uploads&prefix=paste%2Fkekfqxttgoz7bd%2F5bcfefc0384fcc962a6516c51e5d956516be25035274293e03f1a7234b2e6090%2Fimage.png)</md>",No instructor answer,"<p>add</p>
+<div>
+<div>#include &lt;stdint.h&gt;</div>
+</div>
+<div>at the top of quantizer.cc</div>"
+2024-11-06T04:32:04Z,lab5,132,Loop unrolling,"for the x86 version of loop rolling, why are there 32 loops set up, just like in the reference? my understanding was that since it seems that it&#39;s expected that we unpack 4 packed bytes instead of just 1 per loop, that there should be only 8 loops run as opposed to 32.",No instructor answer,"<p>I belive its because col increments 4 at a time</p>
+<p><img src=""/redirect/s3?bucket=uploads&amp;prefix=paste%2Fktemkt1vezb2pj%2F9c97302dae5d4349353457936380c9c1938adc5ea637be24c376cff321c5a7aa%2Fimage.png"" alt=""image.png"" /></p>
+<p>so you are doing 4 columns at a time</p>"
+2024-11-05T18:56:23Z,lab5,130,Lab5 report,"For the Lab5 report, do we have to copy-paste the entire code file onto the document or can we just put a screenshot of the relevant TO-DO code snippets for each question?","You could put the TODO code snippets in the written report. However, keep in mind that you still need to submit the patch file which contains all changes you made in the codebase. (See the last section of lab instruction)",No student answer
+2024-11-04T19:22:20Z,lab5,125,"Definitions of _mm256_and_si256, _mm256_srli_epi16, etc.",Can anyone point me to where these functions are defined?,No instructor answer,"they are part of Intel’s AVX (Advanced Vector Extensions) intrinsic functions <br />u can find more here <a href=""https://www.intel.com/content/www/us/en/docs/cpp-compiler/developer-guide-reference/2021-8/mm256-srli-epi16-32-64.html"" target=""_blank"" rel=""noopener noreferrer"">link</a> <br /><br />6.106 mit ocw course (6.172) might also be useful to see how those vector ops can be used"
+2024-11-04T19:12:02Z,lab5,124,Lab 5 submission name,"By naming the submission like`{studentID}-{ISA}.patch`, does the {studentID} part mean our Kerberos username or our actual numeric student ID number?",Please use your numeric student ID. Thanks.,No student answer
+2024-11-04T15:11:56Z,lab5,123,Compiling evaluate on the reference,"<p>Hi, I just downloaded everything I needed to and tried running evaluate on the reference and I got an error. I am not sure what it is or why I got it. I am attaching an image of it below.</p>
+<p></p>
+<p><img src=""/redirect/s3?bucket=uploads&amp;prefix=paste%2Fkqlbk12o6385jn%2F2d0b77d88d616c3dac4ffbbabd0ec974b7577105837770bab61ff7759781ff23%2FScreenshot_2024-11-04_at_10.09.02_AM.png"" width=""1428"" height=""126"" alt="""" /></p>","<p>Please try to run the evaluation script in the `transformer` directory.</p>
+<pre>
+cd transformer
+./evaluate.sh reference</pre>
+<p></p>",No student answer
+2024-11-04T14:37:21Z,"logistics, other",122,Is there a way to dispute the grading for a lab assignment?,"I think some points were incorrectly deducted from my assignment, is there some way I can dispute it? Thanks!","<md>Hi, 
+
+You can leave a comment on Canvas on the submission page.</md>",No student answer
+2024-11-04T14:14:36Z,other,121,Attention Sinks and Streaming LLM,"<p>From my understanding of attention sinks and streaming LLM, it seems there are two changes compared to window attention:</p>
+<p></p>
+<p>1. The same initial tokens, &#34;attention sinks&#34; are kept throughout.</p>
+<p>2. The positional encoding uses the position in the cache rather than the positions in the original text.</p>
+<p></p>
+<p>Since the experiments in the paper suggest that the semantics of the sink tokens are not actually important, why is 1 necessary? Could you simply do window attention while using the cache position (only 2) and get the similar results as to streaming LLM attention?</p>
+<p></p>
+<p>Thank you.</p>","<md>Great question! The initial tokens absorb a significant portion of the attention scores, which is crucial for maintaining the overall attention distribution. This effect is due to their key states, rather than their positional encodings or semantics. By keeping these tokens in the cache, we prevent the attention distribution from deviating too far from the model’s original distribution. Simply shifting position encodings for windowed attention, as you described, wouldn’t achieve the same stability.</md>",No student answer
+2024-11-04T02:44:03Z,"project, logistics",120,Can our project team consist of fewer than four (4) people?,<p>Can our project team consist of fewer than <strong>four (4)</strong> people?</p>,No instructor answer,No student answer
+2024-11-03T22:11:25Z,lab5,118,reference model response time,"<p>Hello, I am starting Lab 5, but when I compile and run the reference model, it seems like nothing is outputted by the assistant for a long time; longer than the compilation time with ./evalaute.sh reference. </p>
+<p></p>
+<p>It just seems like there is no work being done by my computer in the background when running ./chat reference even though I saw work being done while building with ./evaluate.sh reference</p>","<p>The reference implementation is very slow. Expect several minutes before it starts outputting anything :)</p>
+<p></p>
+<p>The evaluation code only runs a single GEMM operation in the network so it is much faster.</p>",No student answer
+2024-11-03T17:10:08Z,project,117,How are the presentation dates determined?,"<p>Hello, how and when will the final project presentation dates be determined? Will it be determined on a first come first serve basis?</p>
+<p></p>
+<p>Thank you!</p>",No instructor answer,No student answer
+2024-11-02T00:17:11Z,other,116,WorldModelBench daily Leaderboard,"<p>Dear students,<br />        We are sharing the number of votes for top contributors in this thread (anonymous). Enjoy!</p>
+<p></p>
+<p><strong>11.1</strong>: 1151 (1st) 734 (2nd) 504 (3rd) 397 (4th)</p>
+<p><strong>11.2:</strong> 1568 (1st) 1161 (2nd) 700 (3rd) 397 (4th)</p>
+<p><strong>11.3: </strong>2221 (1st) 1664 (2nd) 800 (3rd) 397 (4th) 70 (5th) 31 (6th)</p>
+<p><strong>11.4:</strong> 397 (4th) 143 (5th) 70 (6th)</p>
+<p></p>
+<p>Reminder: The deadline for the competition is November 4, 2024, 11:59 PM ET!</p>
+<p>(Updated on 11.3) We have introduced several more models for students to play around: Open-Sora-Plan, t2vturbo and an API version of the recent popular mochi. Enjoy!</p>
+<p>(Updated on 11.4) Less than <strong>8 hours</strong> left, come to vote and get some cool edge devices!!!<br />(Updated on 11.4) We have successfully finished the competition, and will announce the winners tomorrow at class! Thanks everyone for participating! The website will be hosted at the same link, we encourage students to continuously play around!</p>
+<p></p>",No instructor answer,No student answer
+2024-11-01T17:20:35Z,lab5,115,Downloading LLaMA2-7B-chat model with M1 Mac results in incorrect md5sum,"<p>See title. Downloading multiple times also results in different md5sums, see screenshot below:</p>
+<p><img src=""/redirect/s3?bucket=uploads&amp;prefix=paste%2Fl7sbijy67vy1ey%2Fbff6afa7aa781db9af700b19982d9e280d4b041fef638d7464850730b9bb581d%2Fimage.png"" alt=""image.pngNaN"" /></p>","<p>Hi,</p>
+<p></p>
+<p>We find that this is due to the dropbox link being rate-limited. I have already updated the link to huggingface. Please pull the latest code from the repo and try again. Thank you!</p>
+<p></p>
+<p>Regards,</p>
+<p>Zhekai Zhang</p>",No student answer
+2024-11-01T13:12:09Z,project,113,Project Proposal,"What are the logistics for the project proposal? (i.e. how to format the project proposal, what information should be included in it, where to submit it, etc) I apologize if this is already posted, I have looked and can&#39;t seem to find it.",No instructor answer,Bump
+2024-10-31T18:06:50Z,lab5,112,Lab 5 SIMD code does not compile on M1 Macs,"<md>Using the `vdotq_s32` SIMD instruction causes a compilation error on my M1 Mac because the `dotprod` feature is not enabled by default. I was able to fix this error by making the following change to the Makefile:
+
+![image.png](/redirect/s3?bucket=uploads&prefix=paste%2Fkt5sl9h7b386up%2F71f2128ef9515e4d15da244351f4c8841f9a772bb2e11c7db5ac4dfaf2a27f92%2Fimage.png)
+
+(I've created a pull request at https://github.com/mit-han-lab/tinychat-tutorial/pull/6 fixing this issue)</md>","<p>Hi,</p>
+<p></p>
+<p>Thank you so much for your contribution! I will test your code shortly and merge the change after that.</p>
+<p></p>
+<p>Regards,</p>
+<p>Zhekai Zhang</p>",No student answer
+2024-10-31T14:43:37Z,project,111,Looking for project teammates on audio codecs (search closed),"<p>Hi everyone,<br /><br />I&#39;m Shih-Lun Wu, and I&#39;m a 1st-year EECS PhD student working on music &amp; audio processing, some of my past works can be found here: <a href=""https://slseanwu.github.io/publications/"">https://slseanwu.github.io/publications/</a>.<br /><br />I have some ideas on improving the latency of audio codecs (e.g., <a href=""https://github.com/descriptinc/descript-audio-codec"" target=""_blank"" rel=""noopener noreferrer"">Descript Audio Codec</a>), which can be seen as &#34;tokenizers of audios&#34; that discretize continuous waveforms and enable downstream (audio) LLM training.<br /><br />Audio codecs are an important component for streamable/interactive audio generation systems (e.g., <a href=""https://arxiv.org/abs/2410.00037"" target=""_blank"" rel=""noopener noreferrer"">Moshi</a>), but their efficiency improvement is less explored than that of LLMs. Having a fast codec would get us one step closer to realtime systems for speech/music generation!</p>
+<p></p>
+<p>Please feel free to reach out via email (slseanwu@mit.edu) if you&#39;re interested in collaborating in this direction! Thanks!</p>
+<p></p>
+<p>Shih-Lun</p>",No instructor answer,Hi Shih-Lun! Just sent an email to you about my interest in collaborating with you on this project :)
+2024-10-29T19:22:21Z,project,108,Project Group Finding System,Hi I was wondering if there is an efficient system to find groups for the final project. Perhaps a spreadsheet with the different projects in the handout and people can fill out which project they&#39;re interested in and connect with other students with similar interests like that. ,No instructor answer,"<p>Hey, </p>
+<p>Here is a spreadsheet to track and add new project groups in order to get connected easier.  Wanted to do the HART on Mac (Project 13), so feel free to join there with your kerb or contact info.  Looking forward to collaborating.</p>
+<p></p>
+<p><a href=""https://docs.google.com/spreadsheets/d/1bSaqo9m0IVRYj4_Vig0OlDoavFfeU0ZB9x9v0C-Rlso/edit?usp=sharing"" target=""_blank"" rel=""noopener noreferrer"">https://docs.google.com/spreadsheets/d/1bSaqo9m0IVRYj4_Vig0OlDoavFfeU0ZB9x9v0C-Rlso/edit?usp=sharing</a> </p>"
+2024-10-29T17:40:28Z,"project, logistics",107,Final project idea for making a music generation model more efficient - looking for collaborators!,"<p>Hi everyone,</p>
+<p></p>
+<p>My friend and I were thinking of using techniques taught in class like pruning and quantization on a Hierarchical Generative model that I developed capable of generating audio of vocal melodies in Hindustani music (North Indian Classical music). We use both an autoregressive transformer and diffusion backbones in our work and we could work with either or both versions of my model (happy to talk about this further). I&#39;m trying to gear this generative model toward real-time inference and thus am excited about making it as efficient as possible. If you&#39;re interested shoot me an email at snnithya@mit.edu!</p>
+<p></p>
+<p><strong>Relevant links:</strong><br />Paper: <a href=""https://arxiv.org/abs/2408.12658"" target=""_blank"" rel=""noopener noreferrer"">https://arxiv.org/abs/2408.12658</a></p>
+<p>Huggingface demo (which could be a lot faster after this project!): <a href=""https://huggingface.co/spaces/snnithya/GaMaDHaNi"" target=""_blank"" rel=""noopener noreferrer"">https://huggingface.co/spaces/snnithya/GaMaDHaNi</a> </p>
+<p>Code: <a href=""https://github.com/snnithya/GaMaDHaNi"" target=""_blank"" rel=""noopener noreferrer"">https://github.com/snnithya/GaMaDHaNi</a> </p>
+<p></p>
+<p>Nithya</p>",No instructor answer,No student answer
