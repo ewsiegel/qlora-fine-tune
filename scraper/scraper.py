@@ -208,8 +208,8 @@ def main():
     csrf_token = response.text.translate({34: None, 59: None}).split("=")[1]
 
     # PIAZZA LOG IN CREDENTIALS, FILL IN 
-    email = 'mattradz@mit.edu'
-    password = 'mprMpr422952$*'
+    email = ''
+    password = ''
 
     # Log in using credentials and CSRF token and store cookie in session
     response = session.post(
