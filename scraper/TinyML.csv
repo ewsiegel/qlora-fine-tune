@@ -82,6 +82,12 @@ If you believe you have equivalent prior experience (e.g., a computer architectu
 You can optionally upload related materials, such as transcripts, in the Petition Form. This will increase the chances of our approval of your petition. If you have already submitted the petition form and want to attach new materials, you can submit it again.
 
 Thank you for your attention to this matter.</md>",No instructor answer,No student answer
+2024-11-27T18:13:53Z,project,188,Is poster really necessary?,Can we just use our laptop to present the poster? ,No instructor answer,No student answer
+2024-11-27T04:45:38Z,"project, logistics",187,Due date for paper,"<p>Hello,</p>
+<p></p>
+<p>I just wanted to clarify that the final project paper is due on December 10th right? Only the poster presentation is due on the assigned date (next week)?</p>
+<p></p>
+<p>Thanks!</p>",No instructor answer,"On the website it says Saturday 12/14, should it not be then?"
 2024-11-26T17:43:42Z,project,184,Poster Presentation Clarifications,"What is the expectation for the poster presentation, in terms of the poster itself (actual physical poster?) and length/content of presentation? What should the report look like?/Do you have an example from previous years we can look at?","<md>Hi,
 
 A printed version of the poster is required during the presentation, with dimensions no larger than 36x48 inches. Posters printed across multiple letter/A4-sized pages are acceptable, though be prepared for extra taping.
@@ -1091,3 +1097,527 @@ You can leave a comment on Canvas on the submission page.</md>",No student answe
 <p>Code: <a href=""https://github.com/snnithya/GaMaDHaNi"" target=""_blank"" rel=""noopener noreferrer"">https://github.com/snnithya/GaMaDHaNi</a> </p>
 <p></p>
 <p>Nithya</p>",No instructor answer,No student answer
+2024-10-29T15:25:53Z,"project, logistics",106,Final Project Presentations,"For the final project presentations, do all group members have to be there in person to present?",No instructor answer,No student answer
+2024-10-28T22:32:40Z,project,105,Looking for Collaborators for Final Project: Let&#39;s Push the Frontiers of Efficient ML!,"<div>
+<div>
+<div>
+<div>
+<div>
+<p>Hi everyone,</p>
+<p></p>
+<p>I’m looking for collaborators or a team for the final project. I’m a second-year PhD student in the EECS department, interested in exploring exciting projects that push the boundaries of efficient ML with the potential to evolve into a publication.</p>
+<p></p>
+<p>If you’re interested in working together, feel free to reach out here or contact me directly at gmanso@mit.edu.</p>
+<p></p>
+<p>Looking forward to connecting!</p>
+<p></p>
+<p>Gabriel</p>
+</div>
+</div>
+</div>
+</div>
+</div>",No instructor answer,No student answer
+2024-10-28T20:24:09Z,project,104,Project Partners,"Hi, I am looking for people / a team for the final project. I am a senior at Harvard studying CS. If you want to work together, reach out here or at mpail@college.harvard.edu",No instructor answer,No student answer
+2024-10-28T05:21:44Z,lab4,103,Lab 4 2.3 NaN error,"<p><img src=""/redirect/s3?bucket=uploads&amp;prefix=paste%2Fktb0nxlly1k4nx%2F44a46675bd12f6260aab1193ae25b41b019f3127bb4fc98bc4034fa1948c43e0%2Fimage.png"" alt=""image.png"" /></p>
+<div>
+<div></div>
+</div>
+<p>I could use some help tracking down this error.</p>
+<div>
+<div>Modifying the scales line via adding epsilon before pow, then clamping all the values seems to fix it and give a perfect perplexity of 17.92.<br />Is this allowed?</div>
+</div>",No instructor answer,"EDIT: Just saw the post, didn&#39;t have lab 4 in name so didn&#39;t see it. RESOLVED"
+2024-10-28T02:00:08Z,logistics,102,Lab grading,When will labs 2-3 be graded so that we can get feedback on our work and see how well we are doing in the class?,No instructor answer,No student answer
+2024-10-25T01:51:07Z,lab3,99,Lab 3 Question 8,"<p>I&#39;m getting an error when running <br /><br /></p>
+<div>
+<div>subnets_evo_macs[millonMACs] = search_and_measure_acc(nas_agent, search_constraint, n_subnets=300)</div>
+</div>
+<div><br />The error traces back to the crossover_sample() function in EvloutionSearcher which I have currently defined it as <br /><br />
+<div>
+<pre>
+    def crossover_sample(self, sample1, sample2, constraint):
+
+        print(&#34;crossover_sample&#34;)
+
+        while True:
+
+            new_sample = copy.deepcopy(sample1)
+
+            for key in new_sample.keys():
+
+                if not isinstance(new_sample[key], list):
+
+                    ############### YOUR CODE STARTS HERE ###############
+
+                    # hint: randomly choose the value from sample1[key] and sample2[key], random.choice
+
+                    new_sample[key] = np.random.choice([sample1[key], sample2[key]])
+
+                    ############### YOUR CODE ENDS HERE #################
+
+                else:
+
+                    for i in range(len(new_sample[key])):
+
+                        ############### YOUR CODE STARTS HERE ###############
+
+                        new_sample[key][i] = np.random.choice([sample1[key][i], sample2[key][i]])
+
+                        ############### YOUR CODE ENDS HERE #################
+
+            print(new_sample)
+
+            efficiency = self.efficiency_predictor.get_efficiency(new_sample)
+
+            if self.efficiency_predictor.satisfy_constraint(efficiency, constraint):
+
+                print(&#34;crossover_sample done with&#34;, new_sample)
+
+                return new_sample, efficiency</pre>
+</div>
+<br />The issue further traces to the get_active_subnet() function called in<br />efficiency = self.efficiency_predictor.get_efficiency(new_sample)</div>",No instructor answer,No student answer
+2024-10-24T22:11:46Z,lab3,98,GPU,"<p>Hi, I&#39;m still working through lab 3 but I got this while working on question 9. What should I do? </p>
+<p></p>
+<p><img src=""/redirect/s3?bucket=uploads&amp;prefix=paste%2Fkc5gbhis6d94bq%2F5899889591dc1bd618a32f21d6b5d8b373cd244a80497247f9c92965208d0622%2Fimage.png"" alt=""image.pngNaN"" /></p>
+<p></p>
+<p>RuntimeError: Found no NVIDIA driver on your system.</p>
+<p></p>",No instructor answer,i just share it with a different google account and use that google account whenever i encounter that issue. 
+2024-10-24T20:36:51Z,lab5,97,Debugging,"For lab 5, are there tips for debugging? If the evaluation fails, are we able to see what parts of the tests are failing?",No instructor answer,No student answer
+2024-10-24T19:58:20Z,logistics,96,Posting lecture slides online ahead of lecture?,"<p>Would it be possible to link the lecture slides on the course site before or by the start of lectures again to follow along with during the lecture? In the last few lectures, I&#39;ve noticed that the slides got posted after lecture.</p>
+<p></p>
+<p>Thanks!</p>",No instructor answer,No student answer
+2024-10-23T23:16:26Z,lab4,93,Broken dependency fails to build,"<p>Hello, I&#39;m trying to get started on Lab 4. Unfortunately, the requirement `tokenizers==0.13.3` fails to build in a pretty funny way: some Rust code in the package performs an unsound cast that rustc rejects.</p>
+<p></p>
+<p>There&#39;s a Github issue about this:</p>
+<p><a href=""https://github.com/huggingface/tokenizers/issues/1485"">https://github.com/huggingface/tokenizers/issues/1485</a></p>
+<p></p>
+<p>So... What should I do here, exactly? Can I try different versions of `tokenizers`? Version 0.20.1 doesn&#39;t have this problem.</p>
+<p></p>
+<p></p>
+<p>Tl;dr Help, the borrow checker won&#39;t let me run this lab!</p>
+<p></p>
+<p></p>
+<p>Edit: for now I&#39;ll go with the workaround from that thread—downgrade your Rust toolchain to one that didn&#39;t flag this error. This only works with 0.13.2, though, not 0.13.3, so... I hope that&#39;s not a problem for the lab.<br />https://github.com/huggingface/tokenizers/issues/1485#issuecomment-2040349997</p>",No instructor answer,"<p>`sentencepiece` also fails to build, with a much more obscure error: some script called `build_bundled.sh` errors out. If anyone else encounters that and figures out a workaround, please let me know! Thanks.</p>
+<p></p>
+<p>Edit: figured this one out. The build script assumes you have `cmake` installed. So, have `cmake` installed! See here:<br /><a href=""https://github.com/google/sentencepiece/issues/932"">https://github.com/google/sentencepiece/issues/932</a></p>"
+2024-10-23T22:51:32Z,lab4,92,NaN in question 2.3,"<md>I am getting a NaN in question 2.3 which I have traced it to the presence of a zero value in $$\texttt{s_x}$$, which causes problems when we divide by $$\texttt{scales.min()}$$ some lines later. This is dependent on the activations from the code we were provided. What should we do to work around this?</md>",No instructor answer,Use torch.clamp to turn zeros into small positive values
+2024-10-23T03:52:10Z,lab4,91,"For Lab 4, Question 2.3",I got a perplexity of 17.93 instead of 17.92. Is this sufficient?,No instructor answer,No student answer
+2024-10-22T23:02:33Z,lab3,89,Lab 3 Question 3 Number of layers,"<p>Might be dumb question, but when we have n_layers = 3, does that include the final output layer? If so it seems like we should end</p>
+<div>
+<div>        for i in range(self.n_layers)</div>
+<div>one iteration early.</div>
+</div>",<md>Good question! `n_layers=3` does not include the output layer.</md>,No student answer
+2024-10-22T05:54:07Z,lab3,85,Lab 3 Question 1,"I&#39;m a little confused on how these configuration parameters translate to the visualized model architecture. The number of &#39;ks&#39; doesn&#39;t seem to directly match the number of blocks and it thus it seems to &#34;skip&#34; some kernels. Also as for &#39;d&#39;, my understanding of the depth is the number of blocks per stage, which also doesn&#39;t seem to hold in the visualized model.<br /><br /><img src=""/redirect/s3?bucket=uploads&amp;prefix=paste%2Fjlmbfmpa9r31at%2Ff939641eecca4b44321a774b6bf46880d83e281e704d2fb8ebdf8b4331f85016%2Fimage.png"" alt=""image.pngNaN"" width=""870"" height=""331"" />","<md>Hi there,
+
+`ks` (kernel size) and `e` (expand ratio) that exceeds stage depth will not matter in the final architecture. This is why you may see that the lengths of these arrays differ from the actual network depth. `d` actually refers to ""difference between the current stage's depth - current stage's base depth"", where base depth is defined in one cell above. 
+
+We are expecting an analysis on the importance of `ks`, `e`, `d`, image resolution, etc. on the accuracy. 
+
+
+Best,
+
+Haotian</md>","<p>Honestly, I&#39;m a little confused by what kind of answer this question is even looking for. Are we <em>allowed</em> to run extra experiments, or are we really supposed to just &#34;run the cell above multiple times&#34;? And what does it mean by &#34;which dimension plays the most important role for the accuracy?&#34; Like, the dimension of which layer? Or is it looking for &#34;kernel size&#34; or &#34;expand ratio&#34;?</p>
+<p></p>
+<p>This feels like a question that&#39;s &#34;too simple&#34; in some sense, so the difficulty has to come from making the statement obscure, or else there would be nothing at all to do. I&#39;m at a loss.</p>
+<p></p>
+<p>Edit: to try to answer your actual question, though, it <strong>looks</strong> like the internal &#39;stage&#39; separators have associated dummy values for `ks` and `e` that don&#39;t actually contribute to the network architecture?<br /><br />Second edit: actually, it looks like the length of the `ks` and `e` fields is always 20, for any random network, regardless of the choices of depths. That might be some kind of hint for us.</p>"
+2024-10-22T05:36:05Z,lab3,84,[Lab 3] All search strategies seem to do about the same regardless of the constraints?,"<md>Are we expecting any accuracy outside the 92-94% range? Random and evolutionary search seem to do about the same for me. Also, the constraints don't seem to have a huge impact on the design of the final architecture.
+
+As with @74, both parts of Q9 worked for me on the first try. 
+
+All these results seem suspicious to me, just want to ensure I'm not doing something wrong.</md>",No instructor answer,"I&#39;ve found the same, and was also starting to think I was doing something wrong. Maybe that&#39;s just how it is? But then I&#39;m not sure what we&#39;re supposed to take away from these exercises. There&#39;s a bit of a vanishing gradient problem :)"
+2024-10-22T04:48:45Z,other,83,[Lecture 8] OFA vs Hard-ware Specific NAS,"<md>How does OFA performance compare to a neural architecture search that is hardware specific?
+
+I expect OFA to perform worse because it tries to learn a parent network that contains many useful subnetworks (and therefore should trade off performance compared to just training a single subnetwork). Curious how big this trade-off is. The graph from the lecture doesn't seem to answer this question.
+
+![image.png](/redirect/s3?bucket=uploads&prefix=paste%2Fkekfqxttgoz7bd%2Fb381ed1c75e526b6ece75849ea26cf3708e97e5c7f55e5ac2ebaf59f603dd242%2Fimage.png)</md>","<md>Hi Jagdeep,
+
+Good question! We can indeed specialize models for different platforms using OFA. The specialized subnets, if directly used, can usually already outperform searched + retrained results from other single-shot NAS methods. This is because the OFA training pipeline can benefit subnets within the design space. We can also finetune the specialized subnets on the downstream tasks, which typically leads to even better results.
+
+Best,
+
+Haotian</md>",No student answer
+2024-10-22T04:42:27Z,lab3,82,Tutorial 2,Where can we find tutorial 2 as mentioned by question 4?,"<md>Hi there,
+
+You may refer to lab 0 for relevant information.
+
+Best,
+
+Haotian</md>",No student answer
+2024-10-21T17:00:13Z,"lab3, other",79,How sensitive is the lab test harness?,"<p>Hi, I&#39;ve been very conservative about editing the lab notebooks in any way other than entering text in the &#39;answer&#39; blocks and the &#39;YOUR CODE HERE&#39; segments. But sometimes I&#39;d like to be able to modify the file a <em>little </em>bit more.</p>
+<p></p>
+<p>For example, I&#39;ve hit the colab usage limit, but in order to run the notebook locally, I&#39;ll need to edit the (rather dangerous) setup block. Will this sort of thing cause any kind of auto-grading to fail? Will it cost me points?</p>
+<p></p>
+<p>Similarly, when &#34;exploring&#34; in the first question on lab 3, it might be nice to write some helper functions and make a plot or two. But I have the same concern there: will it violate some contract about the notebook looking a certain way?</p>
+<p></p>
+<p>Thanks!</p>","<md>Hi there,
+
+It is allowed to modify the setup block to enable safer local debugging. We will manually check your solutions so no need to worry about failing to pass auto-grading. You are allowed to add any code that generates plots to lab 3. 
+
+Best,
+
+Haotian</md>",No student answer
+2024-10-20T19:36:21Z,other,78,Lecture 12 recording,I don&#39;t think the link for recording 12 is working. Can that please be fixed?,No instructor answer,No student answer
+2024-10-20T19:35:17Z,lab3,77,Lab 3 Question 9,How should I go about finding the paramaters? I have tried over 50 different combinations and nothing made it to 92.5% accuracy. Do you have any advice?,<md>It might be helpful to encourage explorations during search.</md>,It is very likely that the randomness in training the accuracy predictor neural network (e.g. random initialization of weights) is behind the variation in the experiences of different students. I am personally under the camp of spending hours to get something that barely hit 92.5% and was annoyed to see that my results differed greatly upon re-running the notebook!
+2024-10-20T17:34:06Z,lab3,76,Lab 3 Q2,Are we allowed to use thop.profile? We installed thop but never imported it it seems.,"<md>Hi there,
+
+It is unnecessary to call thop. We have a helper function `count_net_flops`.
+
+Best,
+
+Haotian</md>",No student answer
+2024-10-19T22:20:53Z,lab3,75,Lab 3 Erases Everything From My Server,"<p>Greetings,</p>
+<p></p>
+<p>I&#39;ve always been running my homework on my server at the home directory. This line hidden in the notebook force removes everything from my server... My research, unfinished projects, homeworks... : (</p>
+<p></p>
+<p></p>
+<p><img src=""/redirect/s3?bucket=uploads&amp;prefix=paste%2Flmcz3bnbyuq15z%2F696ebd080ef40697e9139d572737c8f0a2f9a8324ab4a6337a8f135a73a6c1cf%2FScreenshot_2024-10-19_at_6.20.16_PM.png"" alt=""Screenshot_2024-10-19_at_6.20.16_PM.pngNaN"" /></p>","<md>Hi there,
+
+This is very unfortunate. We apologize that we did not anticipate directly running lab3.ipynb directly under the home folder. We have commented out these two lines of code in the latest lab3.ipynb.
+
+Best,
+
+Haotian</md>",No student answer
+2024-10-18T17:31:59Z,lab3,74,"Lab 3, Question 9","The parameters given for question 9 seem to already satisfy the accuracy constraints. Not sure if I&#39;m missing something, are we supposed to continue to find other parameters that also would work?","<md>Hi there,
+
+The code may have some randomness. You may achieve good results with default parameters. Please try varying different parameters and see what is the impact on the final results. We are expecting some discussions in this part to grant full score to the bonus question.
+
+Best,
+
+Haotian</md>",No student answer
+2024-10-18T16:56:28Z,lab3,73,"Lab 3, Question 10",Is this a theoretical question that we should hypothesize an answer to based on what we have seen so far about computational budgets or should we have a cell in our notebook showing different experiments to lead to a more quantitative answer?,<md>You do not need to have a cell running and find the actual network. The question can be answered without running search.</md>,No student answer
+2024-10-17T17:04:07Z,lab3,72,"Lab 3, Question 1","I&#39;m confused how to change the input resolution, as suggested in this problem. Is this some parameter I should pass into sample_active_subnet? I can&#39;t find the documentation for this function anywhere.","<md>Hi there,
+
+We have an argument called `image_size` in `ofa_network.sample_active_subnet`. Feel free to give it a try.
+
+Best,
+
+Haotian</md>",No student answer
+2024-10-16T14:29:09Z,other,70,"Loop Reordering, Lecture 11, Slide 12","For Lecture 11, slide 12, would we still get the same speed up if we did not save the intermediate result Aik = A[i][k] since we would have to retrieve this each time? Is this a fair comparison since we use this extra buffer?","<md>I think you will still expect significant speedup. 
+
+The strided memory access pattern to B[k][j] is incontiguous, and thus not hardware friendly in the baseline implementation. Even if we do not manually cache A[i][k], the loop reordered implementation resolves this issue and should be able to bring about significant speedup. 
+
+By the way, since A[i][k] has good time locality (i and k will not change in the innermost loop, where j changes), it can also be cached automatically.</md>",No student answer
+2024-10-16T01:48:16Z,lab3,69,"Lab 3, Question 10","For this question, can we assume our input resolution is fixed? If so, should we use 96?","<md>Hi there,
+
+We assume that the input resolution will be chosen from: 
+```python
+image_size_list = [96, 112, 128, 144, 160]
+```
+
+Best,
+
+Haotian</md>",No student answer
+2024-10-15T16:11:17Z,lab3,68,Lab 3 Question 4,"I am working on Quesion 4, writing the training loop. The hints seem to imply that we don&#39;t need an optimizer.step() piece in the loop or optimizer.zero_grad() before calculating the gradients. Is that true and if so why don&#39;t we need it? Never mind I think you need it but I don&#39;t know how to delete a post.","<md>Actually you will need that. Backward pass means ""backward pass + parameter update"".</md>",No student answer
+2024-10-15T03:24:21Z,logistics,67,Missing links for lecture 10 and 11,"Hi, I&#39;ve noticed that we are missing the lecture recordings for lectures 10 and 11. Can this be uploaded? Thanks","<p>Hi,</p>
+<p></p>
+<p>The recordings of lecture 10 and 11 have been published to youtube. You could check it out on our website <a href=""https://efficientml.ai/"" target=""_blank"" rel=""noopener noreferrer"">https://efficientml.ai/</a> or directly on our youtube channel: <a href=""https://www.youtube.com/watch?v=ePytVBpjxJA&amp;list=PL80kAHvQbh-qGtNc54A6KW4i4bkTPjiRF&amp;index=18"" target=""_blank"" rel=""noopener noreferrer"">https://www.youtube.com/watch?v=ePytVBpjxJA&amp;list=PL80kAHvQbh-qGtNc54A6KW4i4bkTPjiRF&amp;index=18</a></p>
+<p></p>
+<p>Regards,</p>
+<p>Zhekai</p>",No student answer
+2024-10-13T19:01:32Z,lab3,63,Lab 3 Question 8 Writeup,"<p>Hello!</p>
+<p></p>
+<p>Looks like there isn’t a spot to describe our findings in question 8. Should we create a new cell to describe our findings or is just tuning the parameters sufficient? </p>","<md>Yes, please add a new cell to describe your findings, particularly the choice of hyper-parameters.</md>",No student answer
+2024-10-12T13:58:43Z,lab3,62,Is Lab 3 Finished?,"<p>in the header of the lab, it says:</p>
+<p><br />“</p>
+<ul><li>For architecture search, there are <strong><em>?</em></strong>questions in total.”</li></ul>
+<p>Is the posted lab complete?</p>",<md>Sorry for the confusion. There are 6 questions for the architecture search section. The lab is finalized.</md>,No student answer
+2024-10-10T20:25:43Z,logistics,61,Can the sound please be increased in the lecture recordings,Can barely hear even when I play them on max volume :(,"<md>Hi there,
+
+Sorry for the delayed response. Will it be possible to point out which specific lecture has too low volume? We will try increasing the volume in some of the recordings according to your advice.
+
+Best,
+
+Haotian</md>",No student answer
+2024-10-09T01:04:00Z,logistics,58,Participation Grade,<md>Are the lab feedback forms part of the participation grade/bonus?</md>,No instructor answer,"On the website: &#34;We appreciate everyone being actively involved in the class! Around the middle and end of the semester, we will send out a survey to help us understand how the course is going, and how we can improve. Completing it is worth 4% in total.&#34;"
+2024-10-08T15:45:02Z,lab2,57,quantized_linear bias is wrong?,"Hi - for some reason my bias is wrong for Q7... 
+
+mine: 
+tensor([-1,  0, -3, -1, -3,  0,  2, -4], dtype=torch.int32)
+
+what I should get: 
+tensor([ 2, -1,  2,  1,  2,  2, -1, -1], dtype=torch.int32)
+
+I pass the linear_quantize() test with:    
+
+############### YOUR CODE STARTS HERE ###############
+    # Step 1: scale the fp_tensor
+    scaled_tensor = fp_tensor*1/scale
+    # Step 2: round the floating value to integer value
+    rounded_tensor = torch.round(scaled_tensor).to(torch.int8)
+    ############### YOUR CODE ENDS HERE #################
+
+    rounded_tensor = rounded_tensor.to(dtype)
+
+    ############### YOUR CODE STARTS HERE ###############
+    # Step 3: shift the rounded_tensor to make zero_point 0
+    shifted_tensor = rounded_tensor&#43;zero_point
+    ############### YOUR CODE ENDS HERE #################
+
+
+and for calculating the bias scale in linear_quantize_bias...() 
+    bias_scale = input_scale * weight_scale
+
+
+and for get_quantization_scale_and_zero_point(): 
+   ############### YOUR CODE STARTS HERE ###############
+    # hint: one line of code for calculating scale
+    scale = abs(fp_max)/2**(bitwidth-1)
+    # hint: one line of code for calculating zero_point
+    zero_point = int(round(quantized_min-fp_min/scale))
+
+
+I&#39;ve spent a good amount of time trying to debug to no avail, so any tips would be appreciated. 
+Thanks!",No instructor answer,"<md>When debugging my code, my issue was in 
+````
+get_quantization_scale_and_zero_point
+````
+
+I recommend implementing their formulas *exactly* from question(s) above and using *all values given to you* explicitly instead of computing them yourself.
+
+Hope that ends up fixing your bug :)</md>"
+2024-10-08T00:34:35Z,lab2,56,Dosent this throw away all the benefits we want,"<md>![image.png](/redirect/s3?bucket=uploads&prefix=paste%2Fkekfqxttgoz7bd%2F79b6b103834bdab3a79046f4283b05d012687d995aae2ef3fa3b253621919bae%2Fimage.png)
+
+The GPU one seems especially sus.</md>",No instructor answer,No student answer
+2024-10-08T00:24:16Z,other,55,[Lecture 5 Question] How to compute quantization for X and Y?,"<md>![image.png](/redirect/s3?bucket=uploads&prefix=paste%2Fkekfqxttgoz7bd%2Ff9367498595a767789505543765d34d044e20f186d3965135c13f03c735247d8%2Fimage.png)
+
+Curious how we compute the shift and scale for X and Y, since they are not fixed. Is it based on some statistics from the training dataset?
+
+What happens when we go OOD?</md>",No instructor answer,No student answer
+2024-10-08T00:13:10Z,project,54,Project Logistics,When will the list of suggested projects be released? How will group formation work?,No instructor answer,No student answer
+2024-10-07T00:03:37Z,lab2,52,Why is weight scale not a scalar in the lab?,"<md>In lab 2, I see this comment as a hint. Why is weight scale not a scalar? why does it have a different value for each output channel? I remember from lecture that it was described as having a single scaling factor for the entire weight matrix.
+```
+the shape of weight scale is [oc, 1, 1, 1] while the shape of output is [batch_size, oc]
+```</md>",It&#39;s per-channel quantization. Please refer to P15 of Lec 6.,No student answer
+2024-10-06T20:56:06Z,lab2,51,Advice Debugging Conv Quantization 10% accuracy,"<p>Hello! I was wondering if I could get some advice on how to best debug question 9.1 resulting in 10% accuracy. </p>
+<p></p>
+<p>I suspect it must either be an issue with question 9.1 or question 8 given that everything before passed. I verified that the output of 9.1 gives integers between -128 and 127 (a good mix of positive and negative numbers, the mapping matches my expectation). Question 8 is pretty similar to question 7 (which passed the test); I tried a few variants in case there was something unexpected but couldn’t yet find anything. </p>
+<p></p>
+<p>I’m messing around with some visualizations to better debug, but I’m curious what sort of suggestions you have for debugging? Thanks so much!</p>","<p>Please check if you have overflow problems in Q4: linear_quantize(). </p>
+<p></p>
+<p>The 𝑟=𝑆(𝑞−𝑍) quantization does not guarantee that 𝑆𝑞 stays in the range of target precision (e.g., INT8)</p>",No student answer
+2024-10-06T17:44:51Z,lab2,49,Quantizing Conv2D,"<p><img src=""/redirect/s3?bucket=uploads&amp;prefix=paste%2Fktb0nxlly1k4nx%2F2ba6c5f03077ace4ee60137d9e05d691291072b69b9d840ded48cbd139a0eb9d%2Fimage.png"" alt=""image.pngNaN"" /></p>
+<p>When I try to run the final test, it fails with this error, but i&#39;m not sure what I messed up in the conv2D step. :(</p>",Looks like the implementation here is correct. You may need to check your input args for quantized_conv2d(),No student answer
+2024-10-06T17:23:01Z,lab2,48,Retraining 2 bit k means has too low accuracy,"<p><img src=""/redirect/s3?bucket=uploads&amp;prefix=paste%2Fktb0nxlly1k4nx%2F131e86e5833cf43fd50124019b41166209070a98acfdb852eb63407196e38945%2Fimage.png"" alt=""image.pngNaN"" /></p>
+<p></p>
+<p>Is this good enough? I don&#39;t expect as good as original, but the question wasn&#39;t clear what accuracy we should be getting to.</p>","<p>90%&#43; accuracy seems to be good.</p>
+<p></p>",No student answer
+2024-10-05T17:06:58Z,lab2,47,Updating param as well as codebook,"<p>Edit: Oops, misread the code, nvm!</p>
+<p></p>
+<p>I&#39;m confused about what appears to be an inconsistency between <kbd>k_means_quantize</kbd> and <kbd>update_codebook</kbd>. Whereas <kbd>k_means_quantize</kbd> both computes the codebook, and quantizes the original fp32 matrix, the code given for <kbd>update_codebook</kbd> suggests that we simply update the codebook without actually updating the fp32 matrix passed in:<br /><br /></p>
+<pre>
+def update_codebook(fp32_tensor: torch.Tensor, codebook: Codebook):
+    &#34;&#34;&#34;
+    update the centroids in the codebook using updated fp32_tensor
+    :param fp32_tensor: [torch.(cuda.)Tensor]
+    :param codebook: [Codebook] (the cluster centroids, the cluster label tensor)
+    &#34;&#34;&#34;
+    n_clusters = codebook.centroids.numel()
+    fp32_tensor = fp32_tensor.view(-1)
+    for k in range(n_clusters):
+    ############### YOUR CODE STARTS HERE ###############
+        # hint: one line of code
+        codebook.centroids[k] = ...
+    ############### YOUR CODE ENDS HERE #################</pre>
+<p>This seems odd because when we fine-tune the quantized model, we call <kbd>update_codebook </kbd>via the callback, which updates the codebook but does not re-quantize the model:</p>
+<div>
+<pre>
+while accuracy_drop &gt; accuracy_drop_threshold and epoch &gt; 0:
+	train(model, dataloader[&#39;train&#39;], criterion, optimizer, scheduler, callbacks=[lambda: quantizer.apply(model, update_centroids=True)])
+	model_accuracy = evaluate(model, dataloader[&#39;test&#39;])
+	is_best = model_accuracy &gt; best_accuracy
+	best_accuracy = max(model_accuracy, best_accuracy)
+	print(f&#39; Epoch {num_finetune_epochs-epoch} Accuracy {model_accuracy:.2f}% / Best Accuracy: {best_accuracy:.2f}%&#39;)
+	accuracy_drop = fp32_model_accuracy - best_accuracy
+	epoch -= 1</pre>
+<p>The conclusion seems to be that we&#39;re not actually evaluating the resulting quantized model after the codebook is reapplied to the model, and are effectively just fine tuning a non-quantized model initialized to the original quantized model. (I could totally be missing something though). One small fix would to just have update_codebook also update the param passed in via:<br /><br /></p>
+</div>
+<pre>
+def update_codebook(fp32_tensor: torch.Tensor, codebook: Codebook):
+    n_clusters = codebook.centroids.numel()
+    fp32_tensor = fp32_tensor.view(-1)
+    for k in range(n_clusters):
+      codebook.centroids[k] = ...
+    ### NEW ### 
+    quantized_tensor = codebook.centroids[codebook.labels].view_as(fp32_tensor)
+    fp32_tensor.set_(quantized_tensor.view_as(fp32_tensor))
+   ### END NEW ###
+
+</pre>
+<p>We might even just stick it in <kbd>KMeansQuantizer.appl</kbd>y as these two lines are used in both <kbd>k_means_quantize</kbd> and <kbd>update_codebook</kbd>. Apologies if I&#39;m overlooking something. Thanks in advance for any clarification!</p>","<md>Hi,
+
+In update\_codebook(), we don’t quantize the input fp32\_tensor. The fp32\_tensor (param) is updated here (in k\_means\_quantize):
+
+```python
+class KMeansQuantizer:
+    def __init__(self, model : nn.Module, bitwidth=4):
+        self.codebook = KMeansQuantizer.quantize(model, bitwidth)
+
+    @torch.no_grad()
+    def apply(self, model, update_centroids):
+        for name, param in model.named_parameters():
+            if name in self.codebook:
+                if update_centroids:
+                    update_codebook(param, codebook=self.codebook[name])
+                self.codebook[name] = k_means_quantize(
+                    param, codebook=self.codebook[name])
+```</md>",No student answer
+2024-10-01T21:44:58Z,lab2,45,Q2.1 Test failure with bitwidth=4,"<p>Q2.1 asks how many unique colors do we get with 4-bit k-means quantization. I assume we expect 16.</p>
+<p>However, when I edit the test_k_means_quantize with bitwidth=4. I only got 13 and the test failed. (See screenshots below).</p>
+<p>Moreover, when I reran it from a fresh state, I got different results (see the second screenshot). </p>
+<p>Is this behavior expected?</p>
+<p></p>
+<p><img src=""/redirect/s3?bucket=uploads&amp;prefix=paste%2Fl72q8aoli6c3lh%2F5eba97bfba2660562716c5dc924dc66b2adb6992e32a93c854978341e966e93b%2Fimage.png"" alt=""image.pngNaN"" width=""729"" height=""264"" /></p>
+<p></p>
+<p></p>
+<p><img src=""/redirect/s3?bucket=uploads&amp;prefix=paste%2Fl72q8aoli6c3lh%2F9523d5124c28083de33a7668d9ee27538c05da45055336f68d28fb53d36a381d%2Fimage.png"" alt=""image.pngNaN"" width=""530"" height=""191"" /></p>
+<p></p>","<p>There are some randomness in the k-means quantization. Since there is only 25 unique elements in the original tensor, it&#39;s possible that some centroids do not get any elements after k-means quantization. 16 is the largest number of unique values (centroids) after k-means quantization.</p>
+<p> </p>",No student answer
+2024-09-30T00:29:56Z,other,40,"Lecture 7 slides, Cumulative probability","In Lecture 7 slide 58, what is cumulative probability? Is that some measure of memory?",No instructor answer,"<md>The point $$(x, y)$$ on a curve means that using that search space, the resulting model has a probability $$y$$ of achieving $$\leq x$$ FLOPs under the memory constraint. Having more FLOPs is better, so we prefer the curve to be shifted as far right as possible.</md>"
+2024-09-27T21:52:57Z,lab3,39,forward() vs calling a model directly,"<p>Basic question about PyTorch models:</p>
+<p></p>
+<p>What is the difference between calling model.forward(x) and model(x)? Should I ever directly call the forward function?</p>","<md>Hi,
+
+In PyTorch, calling model.forward(x) and model(x) are different:
+
+- ``model.forward(x)`` directly calls the forward method of the class - which usually defines how the input data is processed.
+- While ``model(x)`` will internally call the ``__call__`` method of the model, which does additional things like managing hooks.
+- By using ``model(x)``, PyTorch handles hooks (like forward and backward hooks) that you may have registered. On the other hand, calling ``model.forward(x)`` will bypass hooks and only perform what is defined in the ``forward()`` method.
+- You may refer to the implementation [here](https://github.com/pytorch/pytorch/blob/main/torch/nn/modules/module.py#L1740) for more details.</md>",No student answer
+2024-09-27T18:48:41Z,lab2,38,"Is it just me, or is this not 4 colors?","<p></p>
+<p>For question 2, I am a bit confused because there seem to be only 3 colors to me. Should we pretend we have a tensor with all different values instead of the dummy provided by the test? <img src=""/redirect/s3?bucket=uploads&amp;prefix=paste%2Fl7rvlloj5sk2hg%2Fc9f78027ff8ee799eb654314cac558de6b4e13303c6b8fde95fc3cdc8df87387%2Fimage.png"" alt=""image.pngNaN"" /></p>",No instructor answer,"<md>The line at the top of the image says ""num unique values after k-means quantization: 3"" so you should indeed expect only 3 colors</md>"
+2024-09-26T12:52:17Z,lab1,37,Question 8.2 latency reduction is higher,"<p>Hi, I understand what question 8.2 is asking, but actually my observed latency reduction is higher than the computation reduction:</p>
+<p></p>
+<p style=""padding-left:40px"">                        Original Pruned Reduction Ratio</p>
+<p style=""padding-left:40px"">Latency (ms) 27.0        12.6      2.1</p>
+<p style=""padding-left:40px"">MACs (M)       606        305      2.0</p>
+<p style=""padding-left:40px""></p>
+<p dir=""ltr"">Should this change how we answer this question? Or should we answer as if the latency reduction is smaller?</p>","<md>Hi there,
+
+As answered by the student, the colab CPU runtime might be unstable since it is a shared environment. Increasing the number of measurements and averaging the results should help. 
+
+Best,
+
+Haotian</md>",I saw the same thing. Try running it a few times: you&#39;ll notice that the distribution of latencies isn&#39;t <em>that </em>narrow! The setup for this question could probably benefit from a bit of averaging.
+2024-09-26T01:38:39Z,"lab3, lab2",36,ReLU with quantization,"I realize that using a ReLU with quantization is wasteful as we squeeze half the values to 0. However, without the ReLU, what non-linearity do we use? Specifically in the homework, I do not see another non-linear function?","<md>Hi, this is indeed Bonus Question (Question 9.2) in Lab 2.</md>",No student answer
+2024-09-25T01:37:17Z,"logistics, lab1",35,Saving cell outputs,"<p>Hi!</p>
+<p>I see that some of my cell outputs are being saved automatically, but sometimes the images are not saved in the notebook on Google Collab. </p>
+<p></p>
+<p>Does anyone know of any hidden setting toggles we need to do to get it all saved? </p>
+<p></p>
+<p>Thank you!</p>","<md>Yes, on top of the existing author, I recommend manually saving the Notebook occasionally (for example, using Command+S on MacOS) during the process.</md>","<p>Colab in general can be pretty glitchy in my experience. I think the autosave by default saves the images but maybe it skips some if the image is served and rendered first for the client and later for the autosave pipeline. You can try upping the frequency of the autosave. E.g. running</p>
+<div><kbd>%autosave 60<br /></kbd></div>
+<div>in a cell sets the autosave interval to 60 seconds.</div>
+<p></p>"
+2024-09-24T22:07:16Z,lab1,33,question 6,"<p>I&#39;m not sure I understand how to prune the channels of the input layer.</p>
+<p>I thought it&#39;d be as simple as</p>
+<div></div>
+<div>REMOVED CODE</div>
+<div></div>
+<div>
+<div>but I get this error:</div>
+</div>
+<div>
+<pre>
+RuntimeError: Given groups=1, weight of size [90, 64, 3, 3], expected input[1, 45, 32, 32] to have 64 channels, but got 45 channels instead</pre>
+</div>
+<p>I&#39;m not sure how i&#39;m supposed to implement this in 1 line.</p>",No instructor answer,Did you remember to set the weights of next_conv to the pruned version?
+2024-09-24T19:57:21Z,other,32,Number of Activations,"<p>In the slides of lecture 2 (p.62-65), there are several plots proving that #activation is the bottleneck, rather than #parameter. May I ask why is that the case?</p>
+<p><br />I thought every activation function is just computed from the logits, which sum each synapse’s contribution. If each synapse has one weight, how is #activation the bottleneck? Thank you.</p>","<p>In p.62-63, the take-away is that while MobileNet saves a lot of params (compared to ResNet) with a decent accuracy, the #activation in MobileNet is not well optimized. Therefore, optimizing the peak activation memory is also very important, especially in training scenarios (p.65).</p>
+<p></p>
+<p>#activation can be much larger than #params. For example, considering image inputs and convolution neural nets, each pixel will be represented as a feature vector with the dimension of channel size (ignoring up-sample &amp; down-sample here for the sake of simplicity). Moreover, for batched inputs, the #activation is multiplied by batch size while the #params remains the same.  </p>",No student answer
+2024-09-23T17:26:28Z,lab1,30,Lab1 Question 5,"<p>For Q5 in lab1, it says &#34;Please make sure that after pruning, the sparse model is 25% of the size of the dense model, and validation accuracy is higher than 92.5 after finetuning.&#34;</p>
+<p></p>
+<p>Are these values okay (not necessarily equal to 25% sparsity exactly)?</p>
+<div>
+<div>
+<pre>
+Sparse model has size=8.61 MiB = 24.45% of dense model size
+</pre>
+</div>
+</div>
+<div></div>
+<div>
+<div>
+<pre>
+Sparse model has accuracy=92.91% after fintuning</pre>
+</div>
+</div>","<md>Hi, these numbers are OK.</md>",No student answer
+2024-09-20T16:14:42Z,other,28,When will the video be out for Thursday&#39;s lecture?,Title,"<p>Hi,</p>
+<p></p>
+<p>The video has been released.</p>",No student answer
+2024-09-18T06:13:53Z,lab1,25,Cannot connect to GPU,"<p>You cannot currently connect to a GPU due to usage limits in Colab.</p>
+<p>Any work around to get more time on GPU without paying?</p>
+<p></p>
+<p>Thank you!</p>",No instructor answer,"<p>You have to wait or use a different google account, imo both options are bad.</p>
+<p>I just downloaded the colab and installed dependencies on a new conda environment, set the kernel on vscode to point to that.</p>
+<p>Now I can leverage my own GPU with pytorch, making it a lot easier.</p>
+<p></p>
+<p><a href=""https://pytorch.org/get-started/locally/"" target=""_blank"" rel=""noopener noreferrer"">https://pytorch.org/get-started/locally/</a><br />you can just copy the pip command from here as dependencies.</p>"
+2024-09-17T20:37:39Z,other,23,Lab 0 is indeed worth 0 points and does not need to be submitted right?,"<p>Just asking because it says that it is due on the TinyML website.</p>
+<p></p>
+<p>Thanks!</p>","<md>Yes, Lab 0 will not be graded.</md>",No student answer
+2024-09-14T16:09:55Z,lab1,21,Pset upload,"For submitting the labs, do we just need to upload the ipynb file with all cells run?","<md>Hi,
+
+Yes, you only need to upload the .ipynb file with all cells run and questions answered for Lab 0 - 4.</md>",No student answer
+2024-09-12T14:14:01Z,other,18,Latency Question,"L2 states that Latency = max($$T_{computation}, T_{memory}$$). Shouldn&#39;t this be Latency = $$T_{computation} + T_{memory}$$, since for every forward pass we are both fetching activations from memory AND computing?","<md>Hi there,
+
+We assume that computation and memory access are overlapped during execution. This is similar to pipelining in CPU processors, where elements for the next computation cycle are prefetched while the current cycle is being performed. In this case, the latency will be determined by the longer of the two: memory access time or computation time.
+
+Best, Haotian</md>",No student answer
+2024-09-10T20:44:32Z,lab1,14,Different Languages/Release Early?,"<p>Two questions:</p>
+<p>1. Are we able to use a low-level language other than C/C&#43;&#43; for the labs? For example, I&#39;m hoping to get better at Rust, which AFAIK is pretty integrable with C/C&#43;&#43; toolchains, so it would be nice to be able to use Rust and/or mix/match.</p>
+<p>2. Any chance it is possible to release the labs earlier? I have some research deadlines at certain times and it could be extremely helpful to front-load some of the labs. It could also facilitate 1 if I need to write some shim layers.</p>","<md>Hi there,
+
+Regarding your questions, 
+
+1. We will be able to use C++ in lab5. You are welcomed to use any programming languages in the final project as well.
+
+2. Yes, we have already released all the labs in our course website: https://hanlab.mit.edu/courses/2024-fall-65940. 
+
+
+Best,
+Haotian</md>",No student answer
+2024-09-10T19:53:01Z,logistics,13,Slides before class,Can we have the slides available on the website before the lecture so that we can take notes on the slides? Thanks!,"<md>Hi, we will upload the slides and make them available before the lecture if possible.</md>",No student answer
+2024-09-06T17:37:16Z,logistics,11,What time are psets due,11:59 pm hopefully ;),"<md>Hi, all PSets are due 11:59 PM EST.</md>",No student answer
+2024-09-05T21:29:44Z,logistics,8,Prereq Waiver Form,"<md>Dear Instructors,
+
+I can't find the link to the prereq waiver form (mentioned in lecture) on the course website. The posted slides seem to be from last year's lecture. Can you provide us with the link here?
+
+Thanks.</md>","<md>Hi,
+
+You can find the prerequisite petition form [here](https://docs.google.com/forms/d/1gkESVTUXDmW-skKDJFELq3OTKdHo2Z_AOdPVv0vOwvk).</md>",No student answer
+2024-08-22T15:19:07Z,other,6,Welcome to Piazza!,"Welcome to 6.5940 TinyML and Efficient Deep Learning Computing!<br /><br />Course announcements will be made here at Piazza, but file postings (such as lecture notes) and the hub website for all information about the course are at the course website https://efficientml.ai.<br /><br />Here is some key course information.<br />Time: Tuesday/Thursday 3:35-5:00pm Eastern Time<br />Location: 34-101<br />Office Hour: Thursday 5:00-6:00 pm Eastern Time, 38-344 Meeting Room<br />Contact: For external inquiries, personal matters, or emergencies, you can email us at efficientml-staff [at] mit.edu.<br />Prerequisites: 6.191 Computation Structures and 6.390 Intro to Machine Learning. Students who don&#39;t full-fill the prerequisites will be de-registered in the second week of class.",No instructor answer,No student answer
+2024-08-22T15:13:59Z,,1,Welcome to Piazza!,"
+Piazza is a Q&A platform designed to get you great answers from classmates and instructors fast. We've put together this list of tips you might find handy as you get started:
+
+<ol style=""margin:0;padding:0;list-style-position:inside;""> <li style=""margin:0;padding:0""><strong>Ask questions!</strong>
+
+The best way to get answers is to ask questions! Ask questions on Piazza rather than emailing your teaching staff so everyone can benefit from the response (and so you can get answers from classmates who are up as late as you are).
+
+</li><li style=""margin:0;padding:0""><strong>Edit questions and answers wiki-style.</strong>
+
+Think of Piazza as a Q&A wiki for your class. Every question has just a single <strong>students' answer</strong> that students can edit collectively (and a single <strong>instructors’ answer</strong> for instructors).
+
+</li><li style=""margin:0;padding:0""> <strong>Add a followup to comment or ask further questions.</strong>
+
+To comment on or ask further questions about a post, start a <strong>followup discussion</strong>. Mark it resolved when the issue has been addressed, and add any relevant information back into the Q&A above.
+
+</li><li style=""margin:0;padding:0""> <strong>Go anonymous.</strong>
+
+Shy? No problem. You can always opt to post or edit anonymously.
+
+</li><li style=""margin:0;padding:0""> <strong>Tag your posts.</strong>
+
+It's far more convenient to find all posts about your Homework 3 or Midterm 1 when the posts are tagged. Type a “#” before a key word to tag. Click a blue tag in a post or the question feed to filter for all posts that share that tag.
+
+</li><li style=""margin:0;padding:0""> <strong>Format code and equations.</strong>
+
+Adding a code snippet? Click the <strong>pre</strong> or <strong>tt</strong> button in the question editor to add pre-formatted or inline teletype text. 
+Mathematical equation? Click the <strong>Fx</strong> button to access the LaTeX editor to build a nicely formatted equation.
+
+</li><li style=""margin:0;padding:0""> <strong>View and download class details and resources.</strong> </li></ol>
+
+Click the <strong>Course Page</strong> button in your top bar to access the class syllabus, staff contact information, office hours details, and course resources—all in one place!
+
+
+Contact the Piazza Team anytime with questions or comments at <strong>team@piazza.com</strong>. We love feedback!",No instructor answer,No student answer
