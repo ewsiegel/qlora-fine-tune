@@ -4,12 +4,17 @@ import re
 
 # Read the CSV file
 df = pd.read_csv('data/Acad.csv')
+df['Instructor Answers'] = df['Instructor Answers'].replace('No instructor answer', '')
+df['Student Answers'] = df['Student Answers'].replace('No student answer', '')
 
 # Create the formatted input string combining subject and question
 df['input'] = df.apply(lambda x: f"subject: {x['Subject']}\n\nquestion: {x['Question']}", axis=1)
 
 # Create the formatted output string combining instructor and student answers
-df['output'] = df.apply(lambda x: f"instructor answer: {x['Instructor Answers']}\n\nstudent answer: {x['Student Answers']}", axis=1)
+df['output'] = df.apply(lambda x: (
+    (f"instructor answer: {x['Instructor Answers']}" if x['Instructor Answers'] else "") +
+    (f"\n\nstudent answer: {x['Student Answers']}" if x['Student Answers'] else "")
+).strip(), axis=1)
 
 # Select only the required columns
 df = df[['input', 'output']]
