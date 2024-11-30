@@ -1,5 +1,6 @@
 import pandas as pd
 from transformers import AutoTokenizer
+import re
 
 # Read the CSV file
 df = pd.read_csv('data/Acad.csv')
@@ -17,6 +18,19 @@ df = df[['input', 'output']]
 df = df.dropna(subset=['input', 'output'])
 df = df[df['input'].str.strip() != '']
 df = df[df['output'].str.strip() != '']
+
+# Clean HTML and special characters
+def clean_text(text):
+    # Replace HTML entities
+    text = text.replace('&#39;', "'")
+    text = text.replace('&#34;', '"')
+    text = text.replace("#pin", "")
+    # Remove HTML tags
+    text = re.sub(r'<[^>]+>', '', text)
+    return text
+
+df['input'] = df['input'].apply(clean_text)
+df['output'] = df['output'].apply(clean_text)
 
 # Load tokenizer and filter by token length
 tokenizer = AutoTokenizer.from_pretrained("huggyllama/llama-7b")
