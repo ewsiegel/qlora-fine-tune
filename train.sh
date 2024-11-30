@@ -1,0 +1,34 @@
+python qlora/qlora.py \
+    --model_name_or_path huggyllama/llama-13b \
+    --output_dir ./output \
+    --gradient_checkpointing \
+    --dataset data/acad_formatted.csv \
+    --source_max_len 256 \
+    --target_max_len 256 \
+    --do_train True \
+    --do_eval True \
+    --per_device_train_batch_size 16 \
+    --per_device_eval_batch_size 16 \
+    --gradient_accumulation_steps 1 \
+    --logging_steps 10 \
+    --num_train_epochs 5 \
+    --save_strategy epoch \
+    --data_seed 42 \
+    --save_total_limit 3 \
+    --evaluation_strategy steps \
+    --eval_dataset_size 100 \
+    --max_eval_samples 100 \
+    --eval_steps 200 \
+    --optim paged_adamw_32bit \
+    --bits 4 \
+    --double_quant \
+    --quant_type nf4 \
+    --lora_r 4 \
+    --lora_alpha 8 \
+    --lora_dropout 0.05 \
+    --max_memory_MB 23000 \
+    --bf16 True \
+    --fp16 False \
+    --use_flash_attention_2 True \
+    --preprocess_num_workers 16
+

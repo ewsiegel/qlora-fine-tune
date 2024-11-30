@@ -2,12 +2,22 @@
 name = "qlora-fine-tune"
 version = "0.1.0"
 description = ""
-authors = ["Ethan Siegel <ewsiegel@gmail.com>"]
+authors = ["Ethan Siegel <ewsiegel@mit.edu>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = "3.11.10"
+bitsandbytes = "^0.44.1"
+transformers = "^4.46.3"
+peft = "^0.13.2"
+accelerate = "^1.1.1"
+einops = "^0.8.0"
+evaluate = "^0.4.3"
+scikit-learn = "^1.5.2"
+sentencepiece = "^0.2.0"
+wandb = "^0.18.7"
 torch = "^2.5.1"
+matplotlib = "^3.9.2"
 
 
 [build-system]
