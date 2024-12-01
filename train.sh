@@ -19,7 +19,7 @@ python qlora/qlora.py \
     --do_train True \
     --learning_rate 3e-6 \
     --gradient_checkpointing \
-    --gradient_accumulation_steps 2 \
+    --gradient_accumulation_steps 1 \
     --per_device_train_batch_size 16 \
     --logging_steps 10 \
     --num_train_epochs 10 \
@@ -42,9 +42,8 @@ python qlora/qlora.py \
     --padding_side "right" \
     --add_special_tokens '{"pad_token": "[PAD]"}' \
     --save_tokenizer True \
-    --shuffle_buffer 10000 \
     --warmup_ratio 0.1 \
     --weight_decay 0.05 \
     --save_safetensors True \
-    --max_grad_norm 0.5 \
+    --max_grad_norm 1.0 \
 
