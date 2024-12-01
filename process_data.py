@@ -17,10 +17,7 @@ df['output'] = df.apply(lambda x: x['Instructor Answers'] if x['Instructor Answe
 # Select only the required columns
 df = df[['input', 'output']]
 
-# Remove rows with empty/None values
 df = df.dropna(subset=['input', 'output'])
-df = df[df['input'].str.strip() != '']
-df = df[df['output'].str.strip() != '']
 
 # Clean HTML and special characters
 def clean_text(text):
@@ -34,6 +31,10 @@ def clean_text(text):
 
 df['input'] = df['input'].apply(clean_text)
 df['output'] = df['output'].apply(clean_text)
+
+# Remove rows with empty/None values
+df = df[df['input'].str.strip() != '']
+df = df[df['output'].str.strip() != '']
 
 # Load tokenizer and filter by token length
 tokenizer = AutoTokenizer.from_pretrained("huggyllama/llama-7b")
