@@ -5,7 +5,7 @@ import json
 import os
 
 base_model_name = "huggyllama/llama-13b"
-adapter_path = "./output/checkpoint-5560/adapter_model"
+adapter_path = "./output2/checkpoint-1050/"
 update_vocab_size = True
 
 def load_model():
@@ -62,10 +62,30 @@ def load_model():
     
     return model, tokenizer
 
+def format_input(subject, question):
+    formatted_prompt = f"""
+You are a helpful academic advisor assistant that provides answers to questions about general academic advising topics.
+
+You will receive input in the following format:
+
+subject: subject line,
+question: student question
+
+Your response should be in the following format:
+
+answer: advisor answer
+
+Here is the input:
+
+subject: {subject},
+question: {question}
+
+Provide your helpful response here:
+"""
+    return formatted_prompt
 def generate_text(subject, question, model, tokenizer, max_new_tokens=256):
+    formatted_prompt = format_input(subject, question)
     # Format the input with subject and question structure
-    formatted_prompt = f"subject: {subject}\n\nquestion: {question}"
-    
     inputs = tokenizer(formatted_prompt, return_tensors="pt").to(model.device)
     outputs = model.generate(
         **inputs,
