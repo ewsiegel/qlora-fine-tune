@@ -17,7 +17,7 @@ python qlora/qlora.py \
     --seed 42 \
     --max_memory_MB 23000 \
     --do_train True \
-    --learning_rate 3e-6 \
+    --learning_rate 1e-5 \
     --gradient_checkpointing \
     --gradient_accumulation_steps 1 \
     --per_device_train_batch_size 16 \
