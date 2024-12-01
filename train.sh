@@ -1,11 +1,11 @@
 python qlora/qlora.py \
     --model_name_or_path huggyllama/llama-13b \
-    --output_dir ./output \
+    --output_dir ./output2 \
     --bits 4 \
     --double_quant \
     --quant_type nf4 \
-    --lora_r 8 \
-    --lora_alpha 16 \
+    --lora_r 16 \
+    --lora_alpha 32 \
     --lora_dropout 0.1 \
     --bf16 True \
     --use_flash_attention_2 True \
@@ -17,19 +17,31 @@ python qlora/qlora.py \
     --seed 42 \
     --max_memory_MB 23000 \
     --do_train True \
-    --learning_rate 1e-4 \
+    --learning_rate 5e-5 \
     --gradient_checkpointing \
     --gradient_accumulation_steps 1 \
     --per_device_train_batch_size 16 \
     --logging_steps 10 \
-    --num_train_epochs 5 \
+    --num_train_epochs 10 \
+    --max_steps -1 \
     --optim paged_adamw_32bit \
     --save_strategy epoch \
     --save_total_limit 3 \
     --do_eval True \
     --per_device_eval_batch_size 16 \
-    --evaluation_strategy steps \
-    --eval_dataset_size 500 \
-    --max_eval_samples 500 \
-    --eval_steps 200 \
+    --evaluation_strategy epoch \
+    --eval_dataset_size 1000 \
+    --max_eval_samples 1000 \
+    --load_best_model_at_end True \
+    --metric_for_best_model eval_loss \
+    --early_stopping_patience 2 \
+    --early_stopping_threshold 0.01 \
+    --add_eos_token True \
+    --padding_side "right" \
+    --add_special_tokens '{"pad_token": "[PAD]"}' \
+    --save_tokenizer True \
+    --group_by_length True \
+    --warmup_ratio 0.03 \
+    --weight_decay 0.01 \
+    --save_safetensors True \
 
