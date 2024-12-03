@@ -7,6 +7,7 @@ python qlora/qlora.py \
     --lora_r 64 \
     --lora_alpha 128 \
     --lora_dropout 0.2 \
+    --lora_modules all \
     --bf16 True \
     --use_flash_attention_2 True \
     --dataset data/acad_formatted.csv \
