@@ -1,7 +1,7 @@
 import pandas as pd
 from transformers import AutoTokenizer
 import re
-from chat import format_input
+from utils import format_input
 
 # Read the CSV file
 df = pd.read_csv('data/Acad.csv')
