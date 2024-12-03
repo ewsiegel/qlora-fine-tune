@@ -5,7 +5,7 @@ import json
 import os
 
 base_model_name = "huggyllama/llama-13b"
-adapter_path = "./output2/checkpoint-1050/"
+adapter_path = "./fine_tuned_llama_acad/checkpoint-2910/"
 update_vocab_size = True
 use_adapter = True
 
@@ -21,7 +21,8 @@ def load_model():
     tokenizer = AutoTokenizer.from_pretrained(
         base_model_name,
         padding_side="right",
-        add_eos_token=True,
+        add_eos_token=False,
+        add_bos_token=True,
     )
     tokenizer.pad_token = tokenizer.eos_token
     
@@ -91,21 +92,21 @@ Provide your helpful response here:
 def generate_text(subject, question, model, tokenizer, max_new_tokens=256):
     formatted_prompt = format_input(subject, question)
     # Format the input with subject and question structure
-    inputs = tokenizer(formatted_prompt, return_tensors="pt").to(model.device)
+    inputs = tokenizer(formatted_prompt, return_tensors="pt", add_special_tokens=True).to(model.device)
     outputs = model.generate(
         **inputs,
         max_new_tokens=max_new_tokens,
         temperature=0.7,
         top_p=0.9,
-        repetition_penalty=1.1
+        repetition_penalty=1.1,
+        pad_token_id=tokenizer.pad_token_id,
+        bos_token_id=tokenizer.bos_token_id,
+        eos_token_id=tokenizer.eos_token_id
     )
-    response = tokenizer.decode(outputs[0], skip_special_tokens=True)
+    new_tokens = outputs[0][inputs.input_ids.shape[1]:]
+    response = tokenizer.decode(new_tokens, skip_special_tokens=True)
     
-    # Remove the prompt from the response if it's included
-    if response.startswith(formatted_prompt):
-        response = response[len(formatted_prompt):].strip()
-    
-    return response
+    return response.strip()
 
 def interactive_chat():
     model, tokenizer = load_model()
