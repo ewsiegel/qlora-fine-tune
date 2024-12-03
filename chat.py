@@ -7,13 +7,15 @@ import os
 base_model_name = "huggyllama/llama-13b"
 adapter_path = "./output2/checkpoint-1050/"
 update_vocab_size = True
+use_adapter = True
 
 def load_model():
     
-    # First, let's check the adapter config
-    with open(os.path.join(adapter_path, "adapter_config.json"), "r") as f:
-        adapter_config = json.load(f)
-        print("Adapter config:", json.dumps(adapter_config, indent=2))
+    if use_adapter:
+        # First, let's check the adapter config
+        with open(os.path.join(adapter_path, "adapter_config.json"), "r") as f:
+            adapter_config = json.load(f)
+            print("Adapter config:", json.dumps(adapter_config, indent=2))
     
     print("Loading tokenizer...")
     tokenizer = AutoTokenizer.from_pretrained(
@@ -48,17 +50,20 @@ def load_model():
         base_model.resize_token_embeddings(len(tokenizer))
         print("Resized token embeddings to match tokenizer vocabulary size.")
     
-    print("Loading adapter...")
-    from peft import PeftModel
-    model = PeftModel.from_pretrained(
-        base_model,
-        adapter_path,
-        device_map="auto",
-        torch_dtype=torch.bfloat16,
-    )
-    
-    print("Merging model weights...")
-    model = model.merge_and_unload()
+    if use_adapter:
+        print("Loading adapter...")
+        from peft import PeftModel
+        model = PeftModel.from_pretrained(
+            base_model,
+            adapter_path,
+            device_map="auto",
+            torch_dtype=torch.bfloat16,
+        )
+        
+        print("Merging model weights...")
+        model = model.merge_and_unload()
+    else:
+        model = base_model
     
     return model, tokenizer
 
