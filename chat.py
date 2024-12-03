@@ -21,7 +21,7 @@ def generate_text(subject, question, model, tokenizer, max_new_tokens=256):
     return response.strip()
 
 def interactive_chat():
-    model, tokenizer = load_model(use_adapter=False, update_vocab_size=False)
+    model, tokenizer = load_model()
     print("\nModel loaded! Enter your subject and question below. Type 'quit' at any time to exit.")
     print("-" * 50)
     
