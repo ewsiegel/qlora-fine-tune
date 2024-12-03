@@ -1,12 +1,12 @@
 python qlora/qlora.py \
-    --model_name_or_path huggyllama/llama-13b \
-    --output_dir ./output3 \
+    --model_name_or_path huggyllama/llama-30b \
+    --output_dir ./fine_tuned_llama_30b_acad \
     --bits 4 \
     --double_quant \
     --quant_type nf4 \
     --lora_r 64 \
-    --lora_alpha 128 \
-    --lora_dropout 0.2 \
+    --lora_alpha 32 \
+    --lora_dropout 0.1 \
     --lora_modules all \
     --bf16 True \
     --use_flash_attention_2 True \
@@ -20,31 +20,32 @@ python qlora/qlora.py \
     --do_train True \
     --learning_rate 1e-5 \
     --gradient_checkpointing \
-    --gradient_accumulation_steps 1 \
-    --per_device_train_batch_size 16 \
+    --gradient_accumulation_steps 8 \
+    --per_device_train_batch_size 2 \
     --logging_steps 10 \
-    --num_train_epochs 10 \
+    --num_train_epochs 5 \
     --max_steps -1 \
     --optim paged_adamw_32bit \
     --save_strategy steps \
     --save_steps 50 \
     --save_total_limit 3 \
     --do_eval True \
-    --per_device_eval_batch_size 16 \
+    --per_device_eval_batch_size 2 \
     --evaluation_strategy steps \
     --eval_steps 50 \
     --eval_dataset_size 500 \
     --max_eval_samples 500 \
     --load_best_model_at_end True \
     --metric_for_best_model eval_loss \
-    --early_stopping_patience 5 \
+    --early_stopping_patience 3 \
     --early_stopping_threshold 0.001 \
     --add_eos_token True \
     --padding_side "right" \
     --add_special_tokens '{"pad_token": "[PAD]"}' \
     --save_tokenizer True \
-    --warmup_ratio 0.1 \
+    --warmup_ratio 0.03 \
     --weight_decay 0.05 \
     --save_safetensors True \
     --max_grad_norm 1.0 \
+    --lr_scheduler_type "cosine" 
 
