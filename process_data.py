@@ -27,6 +27,7 @@ def clean_text(text):
     text = text.replace("#pin", "")
     # Remove HTML tags
     text = re.sub(r'<[^>]+>', '', text)
+    text = re.sub(r'[^a-zA-Z0-9\s\.,\"\'\?]|@(?=[^\d])', '', text)
     return text
 
 df['input'] = df['input'].apply(clean_text)
@@ -44,8 +45,8 @@ df['input_length'] = input_lengths
 df['output_length'] = output_lengths
 
 # Filter rows where both input and output are <= 256 tokens
-df = df[df['input_length'] <= 256]
-df = df[df['output_length'] <= 256]
+#df = df[df['input_length'] <= 256]
+#df = df[df['output_length'] <= 256]
 df = df[['input', 'output']]
 
 # Save as CSV in format compatible with qlora dataloader
